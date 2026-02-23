@@ -1,0 +1,178 @@
+{
+  "base_url": "https://www.dnd5eapi.co",
+  "fetched_at_unix": 1771872329,
+  "endpoints": {
+    "ability-scores": {
+      "path": "/api/2014/ability-scores",
+      "url": "https://www.dnd5eapi.co/api/2014/ability-scores",
+      "output_file": "ability-scores.json",
+      "num_items": 6,
+      "collection_walked": true
+    },
+    "alignments": {
+      "path": "/api/2014/alignments",
+      "url": "https://www.dnd5eapi.co/api/2014/alignments",
+      "output_file": "alignments.json",
+      "num_items": 9,
+      "collection_walked": true
+    },
+    "backgrounds": {
+      "path": "/api/2014/backgrounds",
+      "url": "https://www.dnd5eapi.co/api/2014/backgrounds",
+      "output_file": "backgrounds.json",
+      "num_items": 1,
+      "collection_walked": true
+    },
+    "classes": {
+      "path": "/api/2014/classes",
+      "url": "https://www.dnd5eapi.co/api/2014/classes",
+      "output_file": "classes.json",
+      "num_items": 12,
+      "collection_walked": true
+    },
+    "conditions": {
+      "path": "/api/2014/conditions",
+      "url": "https://www.dnd5eapi.co/api/2014/conditions",
+      "output_file": "conditions.json",
+      "num_items": 15,
+      "collection_walked": true
+    },
+    "damage-types": {
+      "path": "/api/2014/damage-types",
+      "url": "https://www.dnd5eapi.co/api/2014/damage-types",
+      "output_file": "damage-types.json",
+      "num_items": 13,
+      "collection_walked": true
+    },
+    "equipment": {
+      "path": "/api/2014/equipment",
+      "url": "https://www.dnd5eapi.co/api/2014/equipment",
+      "output_file": "equipment.json",
+      "num_items": 237,
+      "collection_walked": true
+    },
+    "equipment-categories": {
+      "path": "/api/2014/equipment-categories",
+      "url": "https://www.dnd5eapi.co/api/2014/equipment-categories",
+      "output_file": "equipment-categories.json",
+      "num_items": 39,
+      "collection_walked": true
+    },
+    "feats": {
+      "path": "/api/2014/feats",
+      "url": "https://www.dnd5eapi.co/api/2014/feats",
+      "output_file": "feats.json",
+      "num_items": 1,
+      "collection_walked": true
+    },
+    "features": {
+      "path": "/api/2014/features",
+      "url": "https://www.dnd5eapi.co/api/2014/features",
+      "output_file": "features.json",
+      "num_items": 407,
+      "collection_walked": true
+    },
+    "languages": {
+      "path": "/api/2014/languages",
+      "url": "https://www.dnd5eapi.co/api/2014/languages",
+      "output_file": "languages.json",
+      "num_items": 16,
+      "collection_walked": true
+    },
+    "magic-items": {
+      "path": "/api/2014/magic-items",
+      "url": "https://www.dnd5eapi.co/api/2014/magic-items",
+      "output_file": "magic-items.json",
+      "num_items": 362,
+      "collection_walked": true
+    },
+    "magic-schools": {
+      "path": "/api/2014/magic-schools",
+      "url": "https://www.dnd5eapi.co/api/2014/magic-schools",
+      "output_file": "magic-schools.json",
+      "num_items": 8,
+      "collection_walked": true
+    },
+    "monsters": {
+      "path": "/api/2014/monsters",
+      "url": "https://www.dnd5eapi.co/api/2014/monsters",
+      "output_file": "monsters.json",
+      "num_items": 334,
+      "collection_walked": true
+    },
+    "proficiencies": {
+      "path": "/api/2014/proficiencies",
+      "url": "https://www.dnd5eapi.co/api/2014/proficiencies",
+      "output_file": "proficiencies.json",
+      "num_items": 117,
+      "collection_walked": true
+    },
+    "races": {
+      "path": "/api/2014/races",
+      "url": "https://www.dnd5eapi.co/api/2014/races",
+      "output_file": "races.json",
+      "num_items": 9,
+      "collection_walked": true
+    },
+    "rule-sections": {
+      "path": "/api/2014/rule-sections",
+      "url": "https://www.dnd5eapi.co/api/2014/rule-sections",
+      "output_file": "rule-sections.json",
+      "num_items": 33,
+      "collection_walked": true
+    },
+    "rules": {
+      "path": "/api/2014/rules",
+      "url": "https://www.dnd5eapi.co/api/2014/rules",
+      "output_file": "rules.json",
+      "num_items": 6,
+      "collection_walked": true
+    },
+    "skills": {
+      "path": "/api/2014/skills",
+      "url": "https://www.dnd5eapi.co/api/2014/skills",
+      "output_file": "skills.json",
+      "num_items": 18,
+      "collection_walked": true
+    },
+    "spells": {
+      "path": "/api/2014/spells",
+      "url": "https://www.dnd5eapi.co/api/2014/spells",
+      "output_file": "spells.json",
+      "num_items": 319,
+      "collection_walked": true
+    },
+    "subclasses": {
+      "path": "/api/2014/subclasses",
+      "url": "https://www.dnd5eapi.co/api/2014/subclasses",
+      "output_file": "subclasses.json",
+      "num_items": 12,
+      "collection_walked": true
+    },
+    "subraces": {
+      "path": "/api/2014/subraces",
+      "url": "https://www.dnd5eapi.co/api/2014/subraces",
+      "output_file": "subraces.json",
+      "num_items": 4,
+      "collection_walked": true
+    },
+    "traits": {
+      "path": "/api/2014/traits",
+      "url": "https://www.dnd5eapi.co/api/2014/traits",
+      "output_file": "traits.json",
+      "num_items": 38,
+      "collection_walked": true
+    },
+    "weapon-properties": {
+      "path": "/api/2014/weapon-properties",
+      "url": "https://www.dnd5eapi.co/api/2014/weapon-properties",
+      "output_file": "weapon-properties.json",
+      "num_items": 11,
+      "collection_walked": true
+    }
+  },
+  "stats": {
+    "requests_made": 2052,
+    "items_collected": 2027
+  }
+}
