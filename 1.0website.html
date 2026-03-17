@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D&D Rules Assistant - Demo</title>
+  <style>
+    :root{
+      --bg0:#070b14;
+      --bg1:#0a1020;
+      --border:rgba(170,190,255,.22);
+      --border2:rgba(170,190,255,.16);
+      --text:#e9eeff;
+      --muted:rgba(233,238,255,.70);
+      --muted2:rgba(233,238,255,.52);
+      --chip:rgba(233,238,255,.08);
+      --shadow: 0 18px 60px rgba(0,0,0,.55);
+      --btnBorder:rgba(170,190,255,.28);
+      --radius:18px;
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color:var(--text);
+      background:
+        radial-gradient(1000px 600px at 35% -10%, rgba(76,120,255,.22) 0%, rgba(7,11,20,0) 55%),
+        radial-gradient(900px 600px at 95% 15%, rgba(144,85,255,.18) 0%, rgba(7,11,20,0) 55%),
+        linear-gradient(180deg, var(--bg1), var(--bg0));
+      min-height:100vh;
+      padding:22px;
+      display:flex;
+      justify-content:center;
+    }
+    .wrap{ width:min(1200px, 100%); }
+
+    .header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      padding:18px 22px;
+      border-radius:22px;
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      border: 2px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+    .brand{
+      display:flex;
+      gap:14px;
+      align-items:flex-start;
+      min-width: 360px;
+    }
+    .square{
+      width:38px; height:38px;
+      border-radius:10px;
+      background: rgba(134,169,255,.9);
+      box-shadow: 0 14px 30px rgba(134,169,255,.18);
+      flex: 0 0 auto;
+    }
+    .title{
+      margin:0;
+      font-size:22px;
+      font-weight:750;
+      letter-spacing:.2px;
+      line-height:1.1;
+    }
+    .subtitle{
+      margin:6px 0 0;
+      font-size:14px;
+      color:var(--muted2);
+    }
+    .chip{
+      padding:10px 16px;
+      border-radius:999px;
+      border:2px solid var(--border2);
+      background: var(--chip);
+      color:var(--muted);
+      font-size:14px;
+      font-weight:650;
+      white-space:nowrap;
+    }
+
+    .grid{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:18px;
+    }
+    .panel{
+      border-radius:22px;
+      border:2px solid var(--border);
+      background: rgba(10,16,32,.55);
+      box-shadow: var(--shadow);
+      padding:18px;
+      min-height: 640px;
+    }
+    .panelLabel{
+      color:var(--muted2);
+      font-size:15px;
+      font-weight:650;
+      margin:6px 0 12px;
+    }
+
+    .textbox{
+      width:100%;
+      min-height: 140px;
+      border-radius: 18px;
+      border:2px solid var(--border2);
+      background: rgba(0,0,0,.30);
+      padding:18px;
+      font-size:22px;
+      color:var(--text);
+      outline:none;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.05);
+      resize: none;
+    }
+    .textbox:focus{
+      border-color: rgba(134,169,255,.55);
+      box-shadow: 0 0 0 5px rgba(134,169,255,.12);
+    }
+
+    .btnRow{
+      display:flex;
+      gap:14px;
+      align-items:center;
+      margin-top:16px;
+      flex-wrap:wrap;
+    }
+    .btn{
+      padding:12px 18px;
+      border-radius:14px;
+      background: rgba(16,26,54,.55);
+      border:2px solid var(--btnBorder);
+      color:var(--muted);
+      font-weight:750;
+      font-size:16px;
+      cursor:pointer;
+      transition: transform .06s ease, filter .15s ease;
+      user-select:none;
+    }
+    .btn:hover{ filter: brightness(1.08); }
+    .btn:active{ transform: translateY(1px); }
+    .btn.primary{
+      background: rgba(134,169,255,.92);
+      border-color: rgba(233,238,255,.28);
+      color: #0b1020;
+    }
+
+    .card{
+      border-radius:22px;
+      border:2px solid var(--border2);
+      background: rgba(0,0,0,.30);
+      padding:20px;
+    }
+    .card + .card{ margin-top:16px; }
+    .cardTitle{
+      font-size:14px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:var(--muted2);
+      font-weight:800;
+      margin:0 0 14px;
+    }
+    .answerText{
+      margin:0;
+      font-size:22px;
+      line-height:1.35;
+      color:var(--muted);
+      font-weight:650;
+    }
+    .steps{
+      margin:0;
+      padding-left: 0;
+      list-style:none;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+      color:var(--muted);
+      font-size:20px;
+      line-height:1.35;
+      font-weight:650;
+    }
+    .stepNum{
+      color:var(--muted2);
+      font-weight:850;
+      margin-right:10px;
+    }
+    .evidence{
+      margin-top:18px;
+      padding:16px 18px;
+      border-radius:16px;
+      border:2px solid rgba(170,190,255,.20);
+      background: rgba(10,16,32,.40);
+      color: rgba(233,238,255,.55);
+      font-weight:700;
+      font-size:16px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      cursor:pointer;
+      user-select:none;
+    }
+    .evidence::after{ content:"▾"; opacity:.7; font-size:18px; }
+
+    @media (max-width: 980px){
+      .grid{ grid-template-columns:1fr; }
+      .panel{ min-height:unset; }
+      .textbox{ font-size:18px; }
+      .answerText{ font-size:18px; }
+      .steps{ font-size:17px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="brand">
+        <div class="square" aria-hidden="true"></div>
+        <div>
+          <h1 class="title">D&amp;D Rules Assistant - Demo</h1>
+          <div class="subtitle">RAG-based SRD 5.1 rules QA (no inline citations in v1 UI)</div>
+        </div>
+      </div>
+      <div class="chip">Corpus: 5e SRD 5.1</div>
+    </div>
+
+    <div class="grid">
+      <section class="panel">
+        <div class="panelLabel">Ask a rules question</div>
+        <textarea class="textbox" id="q">How does grappling work?</textarea>
+
+        <div class="btnRow">
+          <button class="btn primary" id="askBtn">Ask</button>
+          <button class="btn" id="exGrapple">Try: Grappling</button>
+          <button class="btn" id="exTwoSpells">Try: 2 spells in turn?</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panelLabel">Answer</div>
+
+        <div class="card">
+          <div class="cardTitle">Short Answer</div>
+          <p class="answerText" id="short">Grappling restricts movement; it doesn't deal damage.</p>
+        </div>
+
+        <div class="card" style="min-height: 420px;">
+          <div class="cardTitle">Step-by-step Breakdown</div>
+          <ul class="steps" id="steps">
+            <li><span class="stepNum">1)</span>Use Attack action to grapple (special melee attack).</li>
+            <li><span class="stepNum">2)</span>Roll Athletics (STR).</li>
+            <li><span class="stepNum">3)</span>Target contests Athletics (STR) or Acrobatics (DEX).</li>
+            <li><span class="stepNum">4)</span>If you win: target's speed becomes 0 (Grappled).</li>
+            <li><span class="stepNum">5)</span>Grapple ends when conditions are not met.</li>
+          </ul>
+
+          <div class="evidence" id="evidenceBtn">Show evidence (retrieved passages)</div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    // Minimal mock demo JS (swap with your RAG backend later)
+    const examples = {
+      grapple: {
+        q: "How does grappling work?",
+        short: "Grappling restricts movement; it doesn't deal damage.",
+        steps: [
+          "Use Attack action to grapple (special melee attack).",
+          "Roll Athletics (STR).",
+          "Target contests Athletics (STR) or Acrobatics (DEX).",
+          "If you win: target's speed becomes 0 (Grappled).",
+          "Grapple ends when conditions are not met."
+        ]
+      },
+      twoSpells: {
+        q: "Can a character cast two leveled spells in the same turn?",
+        short: "Usually no - a bonus-action spell limits what else you can cast that turn.",
+        steps: [
+          "If you cast a spell as a bonus action, you can’t cast another spell that turn except a 1-action cantrip.",
+          "This restriction applies even if you gain an extra action.",
+          "Two leveled spells in one turn is typically not allowed unless an explicit exception applies."
+        ]
+      }
+    };
+
+    const q = document.getElementById("q");
+    const shortEl = document.getElementById("short");
+    const stepsEl = document.getElementById("steps");
+
+    function render(ex){
+      q.value = ex.q;
+      shortEl.textContent = ex.short;
+      stepsEl.innerHTML = ex.steps.map((s,i)=>`<li><span class="stepNum">${i+1})</span>${s}</li>`).join("");
+    }
+
+    document.getElementById("exGrapple").addEventListener("click", ()=>render(examples.grapple));
+    document.getElementById("exTwoSpells").addEventListener("click", ()=>render(examples.twoSpells));
+
+    document.getElementById("askBtn").addEventListener("click", ()=>{
+      const t = (q.value||"").toLowerCase();
+      if (t.includes("grappl")) return render(examples.grapple);
+      if (t.includes("two") || t.includes("leveled") || t.includes("bonus")) return render(examples.twoSpells);
+
+      shortEl.textContent = "Mock answer (connect to your RAG backend to generate real answers).";
+      stepsEl.innerHTML = "<li><span class='stepNum'>1)</span>Replace this mock logic with fetch('/api/qa').</li>";
+    });
+
+    document.getElementById("evidenceBtn").addEventListener("click", ()=>{
+      alert("Evidence panel is optional in v1 UI. Hook this up to show retrieved passages if needed.");
+    });
+  </script>
+</body>
+</html>
