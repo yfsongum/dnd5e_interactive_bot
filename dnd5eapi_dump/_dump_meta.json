@@ -1,6 +1,10 @@
 {
   "base_url": "https://www.dnd5eapi.co",
+<<<<<<< HEAD
   "fetched_at_unix": 1771872329,
+=======
+  "fetched_at_unix": 1773082929,
+>>>>>>> 3d3f50f (connecting)
   "endpoints": {
     "ability-scores": {
       "path": "/api/2014/ability-scores",
