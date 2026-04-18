@@ -238,6 +238,11 @@
             opacity: .7;
             font-size: 18px;
         }
+        .active-role{
+    background: rgba(134,169,255,.3);
+    border-color: rgba(134,169,255,.6);
+    color: var(--text);
+}
 
         @media (max-width: 980px) {
             .grid {
@@ -282,10 +287,15 @@
             <textarea class="textbox" id="q">How does grappling work?</textarea>
 
             <div class="btnRow">
-                <button class="btn primary" id="askBtn">Ask</button>
-                <button class="btn" id="exGrapple">Try: Grappling</button>
-                <button class="btn" id="exTwoSpells">Try: 2 spells in turn?</button>
-            </div>
+    <button class="btn primary" id="askBtn">Ask</button>
+    <button class="btn" id="exGrapple">Try: Grappling</button>
+    <button class="btn" id="exTwoSpells">Try: 2 spells in turn?</button>
+</div>
+<div class="btnRow" style="margin-top:12px">
+    <span style="color:var(--muted2);font-size:14px;margin-right:4px">Role:</span>
+    <button class="btn role-btn active-role" id="rolePlayer" data-role="player">🧙 Player</button>
+    <button class="btn role-btn" id="roleDM" data-role="dm">🎲 Dungeon Master</button>
+</div>
         </section>
 
         <section class="panel">
@@ -320,6 +330,16 @@
 
     let currentSources = [];
 
+    let currentRole = "player";
+
+document.querySelectorAll(".role-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        document.querySelectorAll(".role-btn").forEach(b => b.classList.remove("active-role"));
+        btn.classList.add("active-role");
+        currentRole = btn.dataset.role;
+    });
+});
+
     const examples = {
         grapple: "How does grappling work?",
         twoSpells: "Can a character cast two leveled spells in the same turn?",
@@ -345,7 +365,7 @@
             const res = await fetch("/api/qa", {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
-                body: JSON.stringify({question}),
+                body: JSON.stringify({question, role: currentRole}),
             });
             const data = await res.json();
 

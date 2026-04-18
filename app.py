@@ -12,6 +12,7 @@ from qdrant_client import QdrantClient
 
 import os
 import json
+import re
 
 # ── Load env ──────────────────────────────────────────────────────────────────
 load_dotenv("si699.env")
@@ -28,13 +29,13 @@ vectorstore = QdrantVectorStore(
 
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
-rag_prompt = PromptTemplate(
-    input_variables=["context", "question"],
-    template="""
-You are a helpful Dungeons & Dragons 5e rules assistant.
-
-Use only the retrieved context below to answer the question.
-If the answer is not in the context, say "I don't know based on the retrieved context."
+PROMPTS = {
+    "player": PromptTemplate(
+        input_variables=["context", "question"],
+        template="""
+You are helping a D&D 5e player understand the rules.
+Focus on what the character can do, how to perform actions, and practical gameplay advice.
+Use simple, clear language a player can act on immediately.
 
 Retrieved Context:
 {context}
@@ -44,11 +45,32 @@ Question:
 
 Reply in this exact JSON format with no extra text:
 {{
-  "short": "one sentence summary of the answer",
-  "steps": ["step 1", "step 2", "step 3"]
+  "short": "one sentence practical answer for the player",
+  "steps": ["action step 1", "action step 2", "action step 3"]
 }}
 """.strip(),
-)
+    ),
+    "dm": PromptTemplate(
+        input_variables=["context", "question"],
+        template="""
+You are helping a D&D 5e Dungeon Master adjudicate rules at the table.
+Focus on rule details, edge cases, how to make fair rulings, and DM guidance.
+Be precise and reference the specific rule mechanics.
+
+Retrieved Context:
+{context}
+
+Question:
+{question}
+
+Reply in this exact JSON format with no extra text:
+{{
+  "short": "one sentence ruling or clarification for the DM",
+  "steps": ["ruling detail 1", "ruling detail 2", "ruling detail 3"]
+}}
+""".strip(),
+    ),
+}
 
 # ── RAG helpers ───────────────────────────────────────────────────────────────
 def retrieve_chunks(query: str, k: int = 3):
@@ -63,14 +85,24 @@ def build_context(docs) -> str:
         )
     return "\n\n".join(parts)
 
-def rag_pipeline(query: str, k: int = 3):
+def build_url(doc) -> str:
+    chunk_id = doc.metadata.get("chunk_id", "")
+    parts = chunk_id.split("_", 1)
+    if len(parts) == 2:
+        return f"https://www.dnd5eapi.co/api/{parts[0]}/{parts[1]}"
+    return doc.metadata.get("url", "")
+
+
+def rag_pipeline(query: str, k: int = 3, role: str = "player"):
     docs    = retrieve_chunks(query, k)
     context = build_context(docs)
-    prompt  = rag_prompt.format(context=context, question=query)
+    prompt_template = PROMPTS.get(role, PROMPTS["player"])
+    prompt  = prompt_template.format(context=context, question=query)
     raw     = llm.invoke(prompt).content
 
     try:
-        parsed = json.loads(raw)
+        match = re.search(r'\{.*\}', raw, re.DOTALL)
+        parsed = json.loads(match.group()) if match else {}
         short  = parsed.get("short", raw)
         steps  = parsed.get("steps", [])
     except Exception:
@@ -79,14 +111,11 @@ def rag_pipeline(query: str, k: int = 3):
 
     sources = [
         {
-            "name": doc.metadata.get("name", ""),
+            "name":     doc.metadata.get("name", ""),
             "chunk_id": doc.metadata.get("chunk_id", ""),
             "category": doc.metadata.get("category", ""),
-            "url": doc.metadata.get("url", "").replace("/api/2014/", "/api/2014/").replace(
-                doc.metadata.get("category", "") + doc.metadata.get("index", ""),
-                doc.metadata.get("category", "") + "/" + doc.metadata.get("index", "")
-            ),
-            "text": doc.page_content,
+            "url":      build_url(doc),
+            "text":     doc.page_content,
         }
         for doc in docs
     ]
@@ -106,6 +135,7 @@ app.add_middleware(
 class QARequest(BaseModel):
     question: str
     k: int = 3
+    role: str = "player"
 
 class SourceItem(BaseModel):
     name:     str
@@ -124,7 +154,7 @@ class QAResponse(BaseModel):
 def qa_endpoint(req: QARequest):
     if not req.question.strip():
         raise HTTPException(status_code=400, detail="Question cannot be empty.")
-    short, steps, sources = rag_pipeline(req.question, req.k)
+    short, steps, sources = rag_pipeline(req.question, req.k, req.role)
     return QAResponse(short=short, steps=steps, sources=sources)
 
 @app.get("/health")
