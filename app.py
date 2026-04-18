@@ -19,7 +19,7 @@ load_dotenv("si699.env")
 
 # ── Models & vectorstore (loaded once at startup) ─────────────────────────────
 embedding_model = OpenAIEmbeddings(model="text-embedding-3-small")
-qdrant_client   = QdrantClient(path="./qdrant_local")
+qdrant_client   = QdrantClient(path="./qdrant_local", force_disable_check_same_thread=True)
 
 vectorstore = QdrantVectorStore(
     client=qdrant_client,
