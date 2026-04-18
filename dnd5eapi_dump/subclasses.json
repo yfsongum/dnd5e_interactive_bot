@@ -16,7 +16,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/berserker/levels",
       "url": "/api/2014/subclasses/berserker",
-      "updated_at": "2025-10-24T20:42:14.748Z",
+      "updated_at": "2026-04-01T20:35:39.401Z",
       "spells": []
     },
     {
@@ -33,7 +33,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/champion/levels",
       "url": "/api/2014/subclasses/champion",
-      "updated_at": "2025-10-24T20:42:14.748Z",
+      "updated_at": "2026-04-01T20:35:39.401Z",
       "spells": []
     },
     {
@@ -202,7 +202,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/devotion/levels",
       "url": "/api/2014/subclasses/devotion",
-      "updated_at": "2025-10-24T20:42:14.748Z"
+      "updated_at": "2026-04-01T20:35:39.401Z"
     },
     {
       "index": "draconic",
@@ -218,7 +218,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/draconic/levels",
       "url": "/api/2014/subclasses/draconic",
-      "updated_at": "2025-10-24T20:42:14.748Z",
+      "updated_at": "2026-04-01T20:35:39.401Z",
       "spells": []
     },
     {
@@ -235,7 +235,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/evocation/levels",
       "url": "/api/2014/subclasses/evocation",
-      "updated_at": "2025-10-24T20:42:14.748Z",
+      "updated_at": "2026-04-01T20:35:39.401Z",
       "spells": []
     },
     {
@@ -404,7 +404,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/fiend/levels",
       "url": "/api/2014/subclasses/fiend",
-      "updated_at": "2025-10-24T20:42:14.748Z"
+      "updated_at": "2026-04-01T20:35:39.401Z"
     },
     {
       "index": "hunter",
@@ -420,7 +420,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/hunter/levels",
       "url": "/api/2014/subclasses/hunter",
-      "updated_at": "2025-10-24T20:42:14.748Z",
+      "updated_at": "2026-04-01T20:35:39.401Z",
       "spells": []
     },
     {
@@ -1615,7 +1615,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/land/levels",
       "url": "/api/2014/subclasses/land",
-      "updated_at": "2025-10-24T20:42:14.748Z"
+      "updated_at": "2026-04-01T20:35:39.401Z"
     },
     {
       "index": "life",
@@ -1768,7 +1768,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/life/levels",
       "url": "/api/2014/subclasses/life",
-      "updated_at": "2025-10-24T20:42:14.748Z"
+      "updated_at": "2026-04-01T20:35:39.401Z"
     },
     {
       "index": "lore",
@@ -1784,7 +1784,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/lore/levels",
       "url": "/api/2014/subclasses/lore",
-      "updated_at": "2025-10-24T20:42:14.748Z",
+      "updated_at": "2026-04-01T20:35:39.401Z",
       "spells": []
     },
     {
@@ -1801,7 +1801,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/open-hand/levels",
       "url": "/api/2014/subclasses/open-hand",
-      "updated_at": "2025-10-24T20:42:14.748Z",
+      "updated_at": "2026-04-01T20:35:39.401Z",
       "spells": []
     },
     {
@@ -1818,7 +1818,7 @@
       ],
       "subclass_levels": "/api/2014/subclasses/thief/levels",
       "url": "/api/2014/subclasses/thief",
-      "updated_at": "2025-10-24T20:42:14.748Z",
+      "updated_at": "2026-04-01T20:35:39.401Z",
       "spells": []
     }
   ]

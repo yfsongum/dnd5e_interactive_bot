@@ -243,7 +243,7 @@
         }
       ],
       "url": "/api/2014/classes/barbarian",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "bard",
@@ -1003,7 +1003,7 @@
       },
       "spells": "/api/2014/classes/bard/spells",
       "url": "/api/2014/classes/bard",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "cleric",
@@ -1376,7 +1376,7 @@
       },
       "spells": "/api/2014/classes/cleric/spells",
       "url": "/api/2014/classes/cleric",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "druid",
@@ -1739,7 +1739,7 @@
       },
       "spells": "/api/2014/classes/druid/spells",
       "url": "/api/2014/classes/druid",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "fighter",
@@ -2110,7 +2110,7 @@
         }
       ],
       "url": "/api/2014/classes/fighter",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "monk",
@@ -2594,7 +2594,7 @@
         }
       ],
       "url": "/api/2014/classes/monk",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "paladin",
@@ -2938,7 +2938,7 @@
       },
       "spells": "/api/2014/classes/paladin/spells",
       "url": "/api/2014/classes/paladin",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "ranger",
@@ -3345,7 +3345,7 @@
       },
       "spells": "/api/2014/classes/ranger/spells",
       "url": "/api/2014/classes/ranger",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "rogue",
@@ -3777,7 +3777,7 @@
         }
       ],
       "url": "/api/2014/classes/rogue",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "sorcerer",
@@ -4084,7 +4084,7 @@
       },
       "spells": "/api/2014/classes/sorcerer/spells",
       "url": "/api/2014/classes/sorcerer",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "warlock",
@@ -4417,7 +4417,7 @@
       },
       "spells": "/api/2014/classes/warlock/spells",
       "url": "/api/2014/classes/warlock",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     },
     {
       "index": "wizard",
@@ -4709,7 +4709,7 @@
       },
       "spells": "/api/2014/classes/wizard/spells",
       "url": "/api/2014/classes/wizard",
-      "updated_at": "2025-10-24T20:42:12.459Z"
+      "updated_at": "2026-04-01T20:35:36.453Z"
     }
   ]
 }

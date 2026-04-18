@@ -14,7 +14,7 @@
         "url": "/api/2014/ability-scores/dex"
       },
       "url": "/api/2014/skills/acrobatics",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "animal-handling",
@@ -28,7 +28,7 @@
         "url": "/api/2014/ability-scores/wis"
       },
       "url": "/api/2014/skills/animal-handling",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "arcana",
@@ -42,7 +42,7 @@
         "url": "/api/2014/ability-scores/int"
       },
       "url": "/api/2014/skills/arcana",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "athletics",
@@ -56,7 +56,7 @@
         "url": "/api/2014/ability-scores/str"
       },
       "url": "/api/2014/skills/athletics",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "deception",
@@ -70,7 +70,7 @@
         "url": "/api/2014/ability-scores/cha"
       },
       "url": "/api/2014/skills/deception",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "history",
@@ -84,7 +84,7 @@
         "url": "/api/2014/ability-scores/int"
       },
       "url": "/api/2014/skills/history",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "insight",
@@ -98,7 +98,7 @@
         "url": "/api/2014/ability-scores/wis"
       },
       "url": "/api/2014/skills/insight",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "intimidation",
@@ -112,7 +112,7 @@
         "url": "/api/2014/ability-scores/cha"
       },
       "url": "/api/2014/skills/intimidation",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "investigation",
@@ -126,7 +126,7 @@
         "url": "/api/2014/ability-scores/int"
       },
       "url": "/api/2014/skills/investigation",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "medicine",
@@ -140,7 +140,7 @@
         "url": "/api/2014/ability-scores/wis"
       },
       "url": "/api/2014/skills/medicine",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "nature",
@@ -154,7 +154,7 @@
         "url": "/api/2014/ability-scores/int"
       },
       "url": "/api/2014/skills/nature",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "perception",
@@ -168,7 +168,7 @@
         "url": "/api/2014/ability-scores/wis"
       },
       "url": "/api/2014/skills/perception",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "performance",
@@ -182,7 +182,7 @@
         "url": "/api/2014/ability-scores/cha"
       },
       "url": "/api/2014/skills/performance",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "persuasion",
@@ -196,7 +196,7 @@
         "url": "/api/2014/ability-scores/cha"
       },
       "url": "/api/2014/skills/persuasion",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "religion",
@@ -210,7 +210,7 @@
         "url": "/api/2014/ability-scores/int"
       },
       "url": "/api/2014/skills/religion",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "sleight-of-hand",
@@ -224,7 +224,7 @@
         "url": "/api/2014/ability-scores/dex"
       },
       "url": "/api/2014/skills/sleight-of-hand",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "stealth",
@@ -238,7 +238,7 @@
         "url": "/api/2014/ability-scores/dex"
       },
       "url": "/api/2014/skills/stealth",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     },
     {
       "index": "survival",
@@ -252,7 +252,7 @@
         "url": "/api/2014/ability-scores/wis"
       },
       "url": "/api/2014/skills/survival",
-      "updated_at": "2025-10-24T20:42:14.523Z"
+      "updated_at": "2026-04-01T20:35:39.079Z"
     }
   ]
 }

@@ -33,7 +33,7 @@
         }
       ],
       "url": "/api/2014/ability-scores/cha",
-      "updated_at": "2025-10-24T20:42:12.130Z"
+      "updated_at": "2026-04-01T20:35:36.010Z"
     },
     {
       "index": "con",
@@ -45,7 +45,7 @@
       ],
       "skills": [],
       "url": "/api/2014/ability-scores/con",
-      "updated_at": "2025-10-24T20:42:12.130Z"
+      "updated_at": "2026-04-01T20:35:36.010Z"
     },
     {
       "index": "dex",
@@ -73,7 +73,7 @@
         }
       ],
       "url": "/api/2014/ability-scores/dex",
-      "updated_at": "2025-10-24T20:42:12.130Z"
+      "updated_at": "2026-04-01T20:35:36.010Z"
     },
     {
       "index": "int",
@@ -111,7 +111,7 @@
         }
       ],
       "url": "/api/2014/ability-scores/int",
-      "updated_at": "2025-10-24T20:42:12.130Z"
+      "updated_at": "2026-04-01T20:35:36.010Z"
     },
     {
       "index": "str",
@@ -129,7 +129,7 @@
         }
       ],
       "url": "/api/2014/ability-scores/str",
-      "updated_at": "2025-10-24T20:42:12.129Z"
+      "updated_at": "2026-04-01T20:35:36.009Z"
     },
     {
       "index": "wis",
@@ -167,7 +167,7 @@
         }
       ],
       "url": "/api/2014/ability-scores/wis",
-      "updated_at": "2025-10-24T20:42:12.130Z"
+      "updated_at": "2026-04-01T20:35:36.010Z"
     }
   ]
 }

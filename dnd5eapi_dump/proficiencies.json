@@ -14,7 +14,7 @@
         "name": "Alchemist's Supplies",
         "url": "/api/2014/equipment/alchemists-supplies"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "all-armor",
@@ -39,7 +39,7 @@
         "name": "Armor",
         "url": "/api/2014/equipment-categories/armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "bagpipes",
@@ -53,7 +53,7 @@
         "name": "Bagpipes",
         "url": "/api/2014/equipment/bagpipes"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "battleaxes",
@@ -73,7 +73,7 @@
         "name": "Battleaxe",
         "url": "/api/2014/equipment/battleaxe"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "blowguns",
@@ -87,7 +87,7 @@
         "name": "Blowgun",
         "url": "/api/2014/equipment/blowgun"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "breastplate",
@@ -101,7 +101,7 @@
         "name": "Breastplate",
         "url": "/api/2014/equipment/breastplate"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "brewers-supplies",
@@ -115,7 +115,7 @@
         "name": "Brewer's Supplies",
         "url": "/api/2014/equipment/brewers-supplies"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "calligraphers-supplies",
@@ -129,7 +129,7 @@
         "name": "Calligrapher's Supplies",
         "url": "/api/2014/equipment/calligraphers-supplies"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "carpenters-tools",
@@ -143,7 +143,7 @@
         "name": "Carpenter's Tools",
         "url": "/api/2014/equipment/carpenters-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "cartographers-tools",
@@ -157,7 +157,7 @@
         "name": "Cartographer's Tools",
         "url": "/api/2014/equipment/cartographers-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "chain-mail",
@@ -171,7 +171,7 @@
         "name": "Chain Mail",
         "url": "/api/2014/equipment/chain-mail"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "chain-shirt",
@@ -185,7 +185,7 @@
         "name": "Chain Shirt",
         "url": "/api/2014/equipment/chain-shirt"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "clubs",
@@ -205,7 +205,7 @@
         "name": "Club",
         "url": "/api/2014/equipment/club"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "cobblers-tools",
@@ -219,7 +219,7 @@
         "name": "Cobbler's Tools",
         "url": "/api/2014/equipment/cobblers-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "cooks-utensils",
@@ -233,7 +233,7 @@
         "name": "Cook's utensils",
         "url": "/api/2014/equipment/cooks-utensils"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "crossbows-heavy",
@@ -247,7 +247,7 @@
         "name": "Crossbow, heavy",
         "url": "/api/2014/equipment/crossbow-heavy"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "crossbows-light",
@@ -272,7 +272,7 @@
         "name": "Crossbow, light",
         "url": "/api/2014/equipment/crossbow-light"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "daggers",
@@ -302,7 +302,7 @@
         "name": "Dagger",
         "url": "/api/2014/equipment/dagger"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "darts",
@@ -332,7 +332,7 @@
         "name": "Dart",
         "url": "/api/2014/equipment/dart"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "dice-set",
@@ -346,7 +346,7 @@
         "name": "Dice Set",
         "url": "/api/2014/equipment/dice-set"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "disguise-kit",
@@ -360,7 +360,7 @@
         "name": "Disguise Kit",
         "url": "/api/2014/equipment/disguise-kit"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "drum",
@@ -374,7 +374,7 @@
         "name": "Drum",
         "url": "/api/2014/equipment/drum"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "dulcimer",
@@ -388,7 +388,7 @@
         "name": "Dulcimer",
         "url": "/api/2014/equipment/dulcimer"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "flails",
@@ -402,7 +402,7 @@
         "name": "Flail",
         "url": "/api/2014/equipment/flail"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "flute",
@@ -416,7 +416,7 @@
         "name": "Flute",
         "url": "/api/2014/equipment/flute"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "forgery-kit",
@@ -430,7 +430,7 @@
         "name": "Forgery Kit",
         "url": "/api/2014/equipment/forgery-kit"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "glaives",
@@ -444,7 +444,7 @@
         "name": "Glaive",
         "url": "/api/2014/equipment/glaive"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "glassblowers-tools",
@@ -458,7 +458,7 @@
         "name": "Glassblower's Tools",
         "url": "/api/2014/equipment/glassblowers-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "greataxes",
@@ -472,7 +472,7 @@
         "name": "Greataxe",
         "url": "/api/2014/equipment/greataxe"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "greatclubs",
@@ -486,7 +486,7 @@
         "name": "Greatclub",
         "url": "/api/2014/equipment/greatclub"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "greatswords",
@@ -500,7 +500,7 @@
         "name": "Greatsword",
         "url": "/api/2014/equipment/greatsword"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "halberds",
@@ -514,7 +514,7 @@
         "name": "Halberd",
         "url": "/api/2014/equipment/halberd"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "half-plate-armor",
@@ -528,7 +528,7 @@
         "name": "Half Plate Armor",
         "url": "/api/2014/equipment/half-plate-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "hand-crossbows",
@@ -553,7 +553,7 @@
         "name": "Crossbow, hand",
         "url": "/api/2014/equipment/crossbow-hand"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "handaxes",
@@ -573,7 +573,7 @@
         "name": "Handaxe",
         "url": "/api/2014/equipment/handaxe"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "heavy-armor",
@@ -587,7 +587,7 @@
         "name": "Heavy Armor",
         "url": "/api/2014/equipment-categories/heavy-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "herbalism-kit",
@@ -607,7 +607,7 @@
         "name": "Herbalism Kit",
         "url": "/api/2014/equipment/herbalism-kit"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "hide-armor",
@@ -621,7 +621,7 @@
         "name": "Hide Armor",
         "url": "/api/2014/equipment/hide-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "horn",
@@ -635,7 +635,7 @@
         "name": "Horn",
         "url": "/api/2014/equipment/horn"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "javelins",
@@ -655,7 +655,7 @@
         "name": "Javelin",
         "url": "/api/2014/equipment/javelin"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "jewelers-tools",
@@ -669,7 +669,7 @@
         "name": "Jeweler's Tools",
         "url": "/api/2014/equipment/jewelers-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "lances",
@@ -683,7 +683,7 @@
         "name": "Lance",
         "url": "/api/2014/equipment/lance"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "land-vehicles",
@@ -697,7 +697,7 @@
         "name": "Land Vehicles",
         "url": "/api/2014/equipment-categories/land-vehicles"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "leather-armor",
@@ -711,7 +711,7 @@
         "name": "Leather Armor",
         "url": "/api/2014/equipment/leather-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "leatherworkers-tools",
@@ -725,7 +725,7 @@
         "name": "Leatherworker's Tools",
         "url": "/api/2014/equipment/leatherworkers-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "light-armor",
@@ -775,7 +775,7 @@
         "name": "Light Armor",
         "url": "/api/2014/equipment-categories/light-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "light-hammers",
@@ -795,7 +795,7 @@
         "name": "Light hammer",
         "url": "/api/2014/equipment/light-hammer"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "longbows",
@@ -815,7 +815,7 @@
         "name": "Longbow",
         "url": "/api/2014/equipment/longbow"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "longswords",
@@ -846,7 +846,7 @@
         "name": "Longsword",
         "url": "/api/2014/equipment/longsword"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "lute",
@@ -860,7 +860,7 @@
         "name": "Lute",
         "url": "/api/2014/equipment/lute"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "lyre",
@@ -874,7 +874,7 @@
         "name": "Lyre",
         "url": "/api/2014/equipment/lyre"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "maces",
@@ -894,7 +894,7 @@
         "name": "Mace",
         "url": "/api/2014/equipment/mace"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "martial-weapons",
@@ -929,7 +929,7 @@
         "name": "Martial Weapons",
         "url": "/api/2014/equipment-categories/martial-weapons"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "masons-tools",
@@ -943,7 +943,7 @@
         "name": "Mason's Tools",
         "url": "/api/2014/equipment/masons-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "mauls",
@@ -957,7 +957,7 @@
         "name": "Maul",
         "url": "/api/2014/equipment/maul"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "medium-armor",
@@ -992,7 +992,7 @@
         "name": "Medium Armor",
         "url": "/api/2014/equipment-categories/medium-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "morningstars",
@@ -1006,7 +1006,7 @@
         "name": "Morningstar",
         "url": "/api/2014/equipment/morningstar"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "navigators-tools",
@@ -1020,7 +1020,7 @@
         "name": "Navigator's Tools",
         "url": "/api/2014/equipment/navigators-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "nets",
@@ -1034,7 +1034,7 @@
         "name": "Net",
         "url": "/api/2014/equipment/net"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "padded-armor",
@@ -1048,7 +1048,7 @@
         "name": "Padded Armor",
         "url": "/api/2014/equipment/padded-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "painters-supplies",
@@ -1062,7 +1062,7 @@
         "name": "Painter's Supplies",
         "url": "/api/2014/equipment/painters-supplies"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "pan-flute",
@@ -1076,7 +1076,7 @@
         "name": "Pan flute",
         "url": "/api/2014/equipment/pan-flute"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "pikes",
@@ -1090,7 +1090,7 @@
         "name": "Pike",
         "url": "/api/2014/equipment/pike"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "plate-armor",
@@ -1104,7 +1104,7 @@
         "name": "Plate Armor",
         "url": "/api/2014/equipment/plate-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "playing-card-set",
@@ -1118,7 +1118,7 @@
         "name": "Playing Card Set",
         "url": "/api/2014/equipment/playing-card-set"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "poisoners-kit",
@@ -1132,7 +1132,7 @@
         "name": "Poisoner's Kit",
         "url": "/api/2014/equipment/poisoners-kit"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "potters-tools",
@@ -1146,7 +1146,7 @@
         "name": "Potter's Tools",
         "url": "/api/2014/equipment/potters-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "quarterstaffs",
@@ -1176,7 +1176,7 @@
         "name": "Quarterstaff",
         "url": "/api/2014/equipment/quarterstaff"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "rapiers",
@@ -1201,7 +1201,7 @@
         "name": "Rapier",
         "url": "/api/2014/equipment/rapier"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "ring-mail",
@@ -1215,7 +1215,7 @@
         "name": "Ring Mail",
         "url": "/api/2014/equipment/ring-mail"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "saving-throw-cha",
@@ -1255,7 +1255,7 @@
         "name": "CHA",
         "url": "/api/2014/ability-scores/cha"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "saving-throw-con",
@@ -1285,7 +1285,7 @@
         "name": "CON",
         "url": "/api/2014/ability-scores/con"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "saving-throw-dex",
@@ -1320,7 +1320,7 @@
         "name": "DEX",
         "url": "/api/2014/ability-scores/dex"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "saving-throw-int",
@@ -1350,7 +1350,7 @@
         "name": "INT",
         "url": "/api/2014/ability-scores/int"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "saving-throw-str",
@@ -1385,7 +1385,7 @@
         "name": "STR",
         "url": "/api/2014/ability-scores/str"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "saving-throw-wis",
@@ -1425,7 +1425,7 @@
         "name": "WIS",
         "url": "/api/2014/ability-scores/wis"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "scale-mail",
@@ -1439,7 +1439,7 @@
         "name": "Scale Mail",
         "url": "/api/2014/equipment/scale-mail"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "scimitars",
@@ -1459,7 +1459,7 @@
         "name": "Scimitar",
         "url": "/api/2014/equipment/scimitar"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "shawm",
@@ -1473,7 +1473,7 @@
         "name": "Shawm",
         "url": "/api/2014/equipment/shawm"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "shields",
@@ -1518,7 +1518,7 @@
         "name": "Shield",
         "url": "/api/2014/equipment/shield"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "shortbows",
@@ -1538,7 +1538,7 @@
         "name": "Shortbow",
         "url": "/api/2014/equipment/shortbow"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "shortswords",
@@ -1574,7 +1574,7 @@
         "name": "Shortsword",
         "url": "/api/2014/equipment/shortsword"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "sickles",
@@ -1594,7 +1594,7 @@
         "name": "Sickle",
         "url": "/api/2014/equipment/sickle"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "simple-weapons",
@@ -1654,7 +1654,7 @@
         "name": "Simple Weapons",
         "url": "/api/2014/equipment-categories/simple-weapons"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-acrobatics",
@@ -1668,7 +1668,7 @@
         "name": "Acrobatics",
         "url": "/api/2014/skills/acrobatics"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-animal-handling",
@@ -1682,7 +1682,7 @@
         "name": "Animal Handling",
         "url": "/api/2014/skills/animal-handling"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-arcana",
@@ -1696,7 +1696,7 @@
         "name": "Arcana",
         "url": "/api/2014/skills/arcana"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-athletics",
@@ -1710,7 +1710,7 @@
         "name": "Athletics",
         "url": "/api/2014/skills/athletics"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-deception",
@@ -1724,7 +1724,7 @@
         "name": "Deception",
         "url": "/api/2014/skills/deception"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-history",
@@ -1738,7 +1738,7 @@
         "name": "History",
         "url": "/api/2014/skills/history"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-insight",
@@ -1752,7 +1752,7 @@
         "name": "Insight",
         "url": "/api/2014/skills/insight"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-intimidation",
@@ -1766,7 +1766,7 @@
         "name": "Intimidation",
         "url": "/api/2014/skills/intimidation"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-investigation",
@@ -1780,7 +1780,7 @@
         "name": "Investigation",
         "url": "/api/2014/skills/investigation"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-medicine",
@@ -1794,7 +1794,7 @@
         "name": "Medicine",
         "url": "/api/2014/skills/medicine"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-nature",
@@ -1808,7 +1808,7 @@
         "name": "Nature",
         "url": "/api/2014/skills/nature"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-perception",
@@ -1828,7 +1828,7 @@
         "name": "Perception",
         "url": "/api/2014/skills/perception"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-performance",
@@ -1842,7 +1842,7 @@
         "name": "Performance",
         "url": "/api/2014/skills/performance"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-persuasion",
@@ -1856,7 +1856,7 @@
         "name": "Persuasion",
         "url": "/api/2014/skills/persuasion"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-religion",
@@ -1870,7 +1870,7 @@
         "name": "Religion",
         "url": "/api/2014/skills/religion"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-sleight-of-hand",
@@ -1884,7 +1884,7 @@
         "name": "Sleight of Hand",
         "url": "/api/2014/skills/sleight-of-hand"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-stealth",
@@ -1898,7 +1898,7 @@
         "name": "Stealth",
         "url": "/api/2014/skills/stealth"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "skill-survival",
@@ -1912,7 +1912,7 @@
         "name": "Survival",
         "url": "/api/2014/skills/survival"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "slings",
@@ -1942,7 +1942,7 @@
         "name": "Sling",
         "url": "/api/2014/equipment/sling"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "smiths-tools",
@@ -1956,7 +1956,7 @@
         "name": "Smith's Tools",
         "url": "/api/2014/equipment/smiths-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "spears",
@@ -1976,7 +1976,7 @@
         "name": "Spear",
         "url": "/api/2014/equipment/spear"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "splint-armor",
@@ -1990,7 +1990,7 @@
         "name": "Splint Armor",
         "url": "/api/2014/equipment/splint-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "studded-leather-armor",
@@ -2004,7 +2004,7 @@
         "name": "Studded Leather Armor",
         "url": "/api/2014/equipment/studded-leather-armor"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "thieves-tools",
@@ -2024,7 +2024,7 @@
         "name": "Thieves' Tools",
         "url": "/api/2014/equipment/thieves-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "tinkers-tools",
@@ -2038,7 +2038,7 @@
         "name": "Tinker's Tools",
         "url": "/api/2014/equipment/tinkers-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "tridents",
@@ -2052,7 +2052,7 @@
         "name": "Trident",
         "url": "/api/2014/equipment/trident"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "viol",
@@ -2066,7 +2066,7 @@
         "name": "Viol",
         "url": "/api/2014/equipment/viol"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "war-picks",
@@ -2080,7 +2080,7 @@
         "name": "War pick",
         "url": "/api/2014/equipment/war-pick"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "warhammers",
@@ -2100,7 +2100,7 @@
         "name": "Warhammer",
         "url": "/api/2014/equipment/warhammer"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "water-vehicles",
@@ -2114,7 +2114,7 @@
         "name": "Waterborne Vehicles",
         "url": "/api/2014/equipment-categories/waterborne-vehicles"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "weavers-tools",
@@ -2128,7 +2128,7 @@
         "name": "Weaver's Tools",
         "url": "/api/2014/equipment/weavers-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "whips",
@@ -2142,7 +2142,7 @@
         "name": "Whip",
         "url": "/api/2014/equipment/whip"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     },
     {
       "index": "woodcarvers-tools",
@@ -2156,7 +2156,7 @@
         "name": "Woodcarver's Tools",
         "url": "/api/2014/equipment/woodcarvers-tools"
       },
-      "updated_at": "2025-10-24T20:42:14.116Z"
+      "updated_at": "2026-04-01T20:35:38.536Z"
     }
   ]
 }

@@ -66,7 +66,7 @@
         }
       ],
       "url": "/api/2014/spells/acid-arrow",
-      "updated_at": "2025-10-24T20:42:14.618Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -132,7 +132,7 @@
         }
       ],
       "url": "/api/2014/spells/acid-splash",
-      "updated_at": "2025-10-24T20:42:14.618Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "aid",
@@ -190,7 +190,7 @@
         }
       ],
       "url": "/api/2014/spells/aid",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -242,7 +242,7 @@
         }
       ],
       "url": "/api/2014/spells/alarm",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -289,7 +289,7 @@
         }
       ],
       "url": "/api/2014/spells/alter-self",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -342,7 +342,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/animal-friendship",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "animal-messenger",
@@ -396,7 +396,7 @@
         }
       ],
       "url": "/api/2014/spells/animal-messenger",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -431,7 +431,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/animal-shapes",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "animate-dead",
@@ -481,7 +481,7 @@
         }
       ],
       "url": "/api/2014/spells/animate-dead",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "animate-objects",
@@ -537,7 +537,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/animate-objects",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -576,7 +576,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/antilife-shell",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -629,7 +629,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/antimagic-field",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -678,7 +678,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/antipathy-sympathy",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -724,7 +724,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/arcane-eye",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "arcane-hand",
@@ -767,7 +767,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/arcane-hand",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -809,7 +809,7 @@
         }
       ],
       "url": "/api/2014/spells/arcane-lock",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -861,7 +861,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/arcane-sword",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -905,7 +905,7 @@
         }
       ],
       "url": "/api/2014/spells/arcanists-magic-aura",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -955,7 +955,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/astral-projection",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -1002,7 +1002,7 @@
         }
       ],
       "url": "/api/2014/spells/augury",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -1043,7 +1043,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/awaken",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "bane",
@@ -1099,7 +1099,7 @@
         }
       ],
       "url": "/api/2014/spells/bane",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "banishment",
@@ -1166,7 +1166,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/banishment",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -1217,7 +1217,7 @@
         }
       ],
       "url": "/api/2014/spells/barkskin",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -1266,7 +1266,7 @@
         }
       ],
       "url": "/api/2014/spells/beacon-of-hope",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "bestow-curse",
@@ -1331,7 +1331,7 @@
         }
       ],
       "url": "/api/2014/spells/bestow-curse",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -1391,7 +1391,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/black-tentacles",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -1447,7 +1447,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/blade-barrier",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "bless",
@@ -1500,7 +1500,7 @@
         }
       ],
       "url": "/api/2014/spells/bless",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "blight",
@@ -1581,7 +1581,7 @@
         }
       ],
       "url": "/api/2014/spells/blight",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "blindness-deafness",
@@ -1649,7 +1649,7 @@
         }
       ],
       "url": "/api/2014/spells/blindness-deafness",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -1694,7 +1694,7 @@
         }
       ],
       "url": "/api/2014/spells/blink",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -1742,7 +1742,7 @@
         }
       ],
       "url": "/api/2014/spells/blur",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "branding-smite",
@@ -1793,7 +1793,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/branding-smite",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "burning-hands",
@@ -1875,7 +1875,7 @@
         }
       ],
       "url": "/api/2014/spells/burning-hands",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "call-lightning",
@@ -1943,7 +1943,7 @@
         }
       ],
       "url": "/api/2014/spells/call-lightning",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -2000,7 +2000,7 @@
         }
       ],
       "url": "/api/2014/spells/calm-emotions",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "chain-lightning",
@@ -2061,7 +2061,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/chain-lightning",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "charm-person",
@@ -2130,7 +2130,7 @@
         }
       ],
       "url": "/api/2014/spells/charm-person",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -2195,7 +2195,7 @@
         }
       ],
       "url": "/api/2014/spells/chill-touch",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "circle-of-death",
@@ -2267,7 +2267,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/circle-of-death",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -2325,7 +2325,7 @@
         }
       ],
       "url": "/api/2014/spells/clairvoyance",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -2361,7 +2361,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/clone",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "cloudkill",
@@ -2436,7 +2436,7 @@
         }
       ],
       "url": "/api/2014/spells/cloudkill",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "color-spray",
@@ -2489,7 +2489,7 @@
         }
       ],
       "url": "/api/2014/spells/color-spray",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "command",
@@ -2553,7 +2553,7 @@
         }
       ],
       "url": "/api/2014/spells/command",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -2596,7 +2596,7 @@
         }
       ],
       "url": "/api/2014/spells/commune",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -2647,7 +2647,7 @@
         }
       ],
       "url": "/api/2014/spells/commune-with-nature",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -2704,7 +2704,7 @@
         }
       ],
       "url": "/api/2014/spells/comprehend-languages",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -2746,7 +2746,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/compulsion",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "cone-of-cold",
@@ -2822,7 +2822,7 @@
         }
       ],
       "url": "/api/2014/spells/cone-of-cold",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "confusion",
@@ -2894,7 +2894,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/confusion",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "conjure-animals",
@@ -2947,7 +2947,7 @@
         }
       ],
       "url": "/api/2014/spells/conjure-animals",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "conjure-celestial",
@@ -2984,7 +2984,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/conjure-celestial",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "conjure-elemental",
@@ -3039,7 +3039,7 @@
         }
       ],
       "url": "/api/2014/spells/conjure-elemental",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "conjure-fey",
@@ -3082,7 +3082,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/conjure-fey",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "conjure-minor-elementals",
@@ -3129,7 +3129,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/conjure-minor-elementals",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "conjure-woodland-beings",
@@ -3178,7 +3178,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/conjure-woodland-beings",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -3225,7 +3225,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/contact-other-plane",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -3281,7 +3281,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/contagion",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -3318,7 +3318,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/contingency",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -3364,7 +3364,7 @@
         }
       ],
       "url": "/api/2014/spells/continual-flame",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -3439,7 +3439,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/control-water",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -3517,7 +3517,7 @@
         }
       ],
       "url": "/api/2014/spells/control-weather",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "counterspell",
@@ -3561,7 +3561,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/counterspell",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -3615,7 +3615,7 @@
         }
       ],
       "url": "/api/2014/spells/create-food-and-water",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "create-or-destroy-water",
@@ -3669,7 +3669,7 @@
         }
       ],
       "url": "/api/2014/spells/create-or-destroy-water",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "create-undead",
@@ -3718,7 +3718,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/create-undead",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "creation",
@@ -3773,7 +3773,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/creation",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "cure-wounds",
@@ -3850,7 +3850,7 @@
         }
       ],
       "url": "/api/2014/spells/cure-wounds",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -3902,7 +3902,7 @@
         }
       ],
       "url": "/api/2014/spells/dancing-lights",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -3963,7 +3963,7 @@
         }
       ],
       "url": "/api/2014/spells/darkness",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4019,7 +4019,7 @@
         }
       ],
       "url": "/api/2014/spells/darkvision",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4089,7 +4089,7 @@
         }
       ],
       "url": "/api/2014/spells/daylight",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4135,7 +4135,7 @@
         }
       ],
       "url": "/api/2014/spells/death-ward",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "delayed-blast-fireball",
@@ -4204,7 +4204,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/delayed-blast-fireball",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4242,7 +4242,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/demiplane",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4291,7 +4291,7 @@
         }
       ],
       "url": "/api/2014/spells/detect-evil-and-good",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4365,7 +4365,7 @@
         }
       ],
       "url": "/api/2014/spells/detect-magic",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4426,7 +4426,7 @@
         }
       ],
       "url": "/api/2014/spells/detect-poison-and-disease",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4481,7 +4481,7 @@
         }
       ],
       "url": "/api/2014/spells/detect-thoughts",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4540,7 +4540,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/dimension-door",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4591,7 +4591,7 @@
         }
       ],
       "url": "/api/2014/spells/disguise-self",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "disintegrate",
@@ -4658,7 +4658,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/disintegrate",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4710,7 +4710,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/dispel-evil-and-good",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "dispel-magic",
@@ -4786,7 +4786,7 @@
         }
       ],
       "url": "/api/2014/spells/dispel-magic",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4829,7 +4829,7 @@
         }
       ],
       "url": "/api/2014/spells/divination",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4878,7 +4878,7 @@
         }
       ],
       "url": "/api/2014/spells/divine-favor",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -4924,7 +4924,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/divine-word",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "dominate-beast",
@@ -4974,7 +4974,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/dominate-beast",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "dominate-monster",
@@ -5036,7 +5036,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/dominate-monster",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "dominate-person",
@@ -5093,7 +5093,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/dominate-person",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5167,7 +5167,7 @@
         }
       ],
       "url": "/api/2014/spells/dream",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5204,7 +5204,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/druidcraft",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5259,7 +5259,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/earthquake",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5312,7 +5312,7 @@
         }
       ],
       "url": "/api/2014/spells/eldritch-blast",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "enhance-ability",
@@ -5376,7 +5376,7 @@
         }
       ],
       "url": "/api/2014/spells/enhance-ability",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5433,7 +5433,7 @@
         }
       ],
       "url": "/api/2014/spells/enlarge-reduce",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5486,7 +5486,7 @@
         }
       ],
       "url": "/api/2014/spells/entangle",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5538,7 +5538,7 @@
         }
       ],
       "url": "/api/2014/spells/enthrall",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "etherealness",
@@ -5597,7 +5597,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/etherealness",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5646,7 +5646,7 @@
         }
       ],
       "url": "/api/2014/spells/expeditious-retreat",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5706,7 +5706,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/eyebite",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5741,7 +5741,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/fabricate",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5792,7 +5792,7 @@
         }
       ],
       "url": "/api/2014/spells/faerie-fire",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5840,7 +5840,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/faithful-hound",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "false-life",
@@ -5899,7 +5899,7 @@
         }
       ],
       "url": "/api/2014/spells/false-life",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -5969,7 +5969,7 @@
         }
       ],
       "url": "/api/2014/spells/fear",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6019,7 +6019,7 @@
         }
       ],
       "url": "/api/2014/spells/feather-fall",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6091,7 +6091,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/feeblemind",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6132,7 +6132,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/find-familiar",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6175,7 +6175,7 @@
         }
       ],
       "url": "/api/2014/spells/find-steed",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6221,7 +6221,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/find-the-path",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6271,7 +6271,7 @@
         }
       ],
       "url": "/api/2014/spells/find-traps",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6333,7 +6333,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/finger-of-death",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6386,7 +6386,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/fire-bolt",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6443,7 +6443,7 @@
         }
       ],
       "url": "/api/2014/spells/fire-shield",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6509,7 +6509,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/fire-storm",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "fireball",
@@ -6591,7 +6591,7 @@
         }
       ],
       "url": "/api/2014/spells/fireball",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "flame-blade",
@@ -6649,7 +6649,7 @@
         }
       ],
       "url": "/api/2014/spells/flame-blade",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "flame-strike",
@@ -6723,7 +6723,7 @@
         }
       ],
       "url": "/api/2014/spells/flame-strike",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "flaming-sphere",
@@ -6790,7 +6790,7 @@
         }
       ],
       "url": "/api/2014/spells/flaming-sphere",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6842,7 +6842,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/flesh-to-stone",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -6885,7 +6885,7 @@
         }
       ],
       "url": "/api/2014/spells/floating-disk",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "fly",
@@ -6938,7 +6938,7 @@
         }
       ],
       "url": "/api/2014/spells/fly",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "fog-cloud",
@@ -6998,7 +6998,7 @@
         }
       ],
       "url": "/api/2014/spells/fog-cloud",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7040,7 +7040,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/forbiddance",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7094,7 +7094,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/forcecage",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7145,7 +7145,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/foresight",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7207,7 +7207,7 @@
         }
       ],
       "url": "/api/2014/spells/freedom-of-movement",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "freezing-sphere",
@@ -7268,7 +7268,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/freezing-sphere",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7326,7 +7326,7 @@
         }
       ],
       "url": "/api/2014/spells/gaseous-form",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7374,7 +7374,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/gate",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "geas",
@@ -7438,7 +7438,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/geas",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7485,7 +7485,7 @@
         }
       ],
       "url": "/api/2014/spells/gentle-repose",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7521,7 +7521,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/giant-insect",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7558,7 +7558,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/glibness",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "globe-of-invulnerability",
@@ -7605,7 +7605,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/globe-of-invulnerability",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "glyph-of-warding",
@@ -7664,7 +7664,7 @@
         }
       ],
       "url": "/api/2014/spells/glyph-of-warding",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7705,7 +7705,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/goodberry",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7759,7 +7759,7 @@
         }
       ],
       "url": "/api/2014/spells/grease",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7808,7 +7808,7 @@
         }
       ],
       "url": "/api/2014/spells/greater-invisibility",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7857,7 +7857,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/greater-restoration",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7912,7 +7912,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/guardian-of-faith",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -7969,7 +7969,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/guards-and-wards",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8013,7 +8013,7 @@
         }
       ],
       "url": "/api/2014/spells/guidance",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "guiding-bolt",
@@ -8073,7 +8073,7 @@
         }
       ],
       "url": "/api/2014/spells/guiding-bolt",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8139,7 +8139,7 @@
         }
       ],
       "url": "/api/2014/spells/gust-of-wind",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8204,7 +8204,7 @@
         }
       ],
       "url": "/api/2014/spells/hallow",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8265,7 +8265,7 @@
         }
       ],
       "url": "/api/2014/spells/hallucinatory-terrain",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8316,7 +8316,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/harm",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8368,7 +8368,7 @@
         }
       ],
       "url": "/api/2014/spells/haste",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "heal",
@@ -8414,7 +8414,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/heal",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "healing-word",
@@ -8475,7 +8475,7 @@
         }
       ],
       "url": "/api/2014/spells/healing-word",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "heat-metal",
@@ -8550,7 +8550,7 @@
         }
       ],
       "url": "/api/2014/spells/heat-metal",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "hellish-rebuke",
@@ -8611,7 +8611,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/hellish-rebuke",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8652,7 +8652,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/heroes-feast",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8696,7 +8696,7 @@
         }
       ],
       "url": "/api/2014/spells/heroism",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8751,7 +8751,7 @@
         }
       ],
       "url": "/api/2014/spells/hideous-laughter",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "hold-monster",
@@ -8811,7 +8811,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/hold-monster",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "hold-person",
@@ -8892,7 +8892,7 @@
         }
       ],
       "url": "/api/2014/spells/hold-person",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -8931,7 +8931,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/holy-aura",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "hunters-mark",
@@ -8965,7 +8965,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/hunters-mark",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9030,7 +9030,7 @@
         }
       ],
       "url": "/api/2014/spells/hypnotic-pattern",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "ice-storm",
@@ -9111,7 +9111,7 @@
         }
       ],
       "url": "/api/2014/spells/ice-storm",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9158,7 +9158,7 @@
         }
       ],
       "url": "/api/2014/spells/identify",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9211,7 +9211,7 @@
         }
       ],
       "url": "/api/2014/spells/illusory-script",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9274,7 +9274,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/imprisonment",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9336,7 +9336,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/incendiary-cloud",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "inflict-wounds",
@@ -9396,7 +9396,7 @@
         }
       ],
       "url": "/api/2014/spells/inflict-wounds",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "insect-plague",
@@ -9476,7 +9476,7 @@
         }
       ],
       "url": "/api/2014/spells/insect-plague",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9514,7 +9514,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/instant-summons",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "invisibility",
@@ -9577,7 +9577,7 @@
         }
       ],
       "url": "/api/2014/spells/invisibility",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9615,7 +9615,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/irresistible-dance",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9671,7 +9671,7 @@
         }
       ],
       "url": "/api/2014/spells/jump",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9722,7 +9722,7 @@
         }
       ],
       "url": "/api/2014/spells/knock",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9768,7 +9768,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/legend-lore",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9837,7 +9837,7 @@
         }
       ],
       "url": "/api/2014/spells/lesser-restoration",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9885,7 +9885,7 @@
         }
       ],
       "url": "/api/2014/spells/levitate",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -9949,7 +9949,7 @@
         }
       ],
       "url": "/api/2014/spells/light",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "lightning-bolt",
@@ -10031,7 +10031,7 @@
         }
       ],
       "url": "/api/2014/spells/lightning-bolt",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -10082,7 +10082,7 @@
         }
       ],
       "url": "/api/2014/spells/locate-animals-or-plants",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -10150,7 +10150,7 @@
         }
       ],
       "url": "/api/2014/spells/locate-creature",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -10218,7 +10218,7 @@
         }
       ],
       "url": "/api/2014/spells/locate-object",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "longstrider",
@@ -10276,7 +10276,7 @@
         }
       ],
       "url": "/api/2014/spells/longstrider",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -10322,7 +10322,7 @@
         }
       ],
       "url": "/api/2014/spells/mage-armor",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -10378,7 +10378,7 @@
         }
       ],
       "url": "/api/2014/spells/mage-hand",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "magic-circle",
@@ -10454,7 +10454,7 @@
         }
       ],
       "url": "/api/2014/spells/magic-circle",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -10504,7 +10504,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/magic-jar",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "magic-missile",
@@ -10568,7 +10568,7 @@
         }
       ],
       "url": "/api/2014/spells/magic-missile",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -10617,7 +10617,7 @@
         }
       ],
       "url": "/api/2014/spells/magic-mouth",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "magic-weapon",
@@ -10663,7 +10663,7 @@
         }
       ],
       "url": "/api/2014/spells/magic-weapon",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -10709,7 +10709,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/magnificent-mansion",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "major-image",
@@ -10769,7 +10769,7 @@
         }
       ],
       "url": "/api/2014/spells/major-image",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "mass-cure-wounds",
@@ -10831,7 +10831,7 @@
         }
       ],
       "url": "/api/2014/spells/mass-cure-wounds",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -10867,7 +10867,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/mass-heal",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "mass-healing-word",
@@ -10916,7 +10916,7 @@
         }
       ],
       "url": "/api/2014/spells/mass-healing-word",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "mass-suggestion",
@@ -10978,7 +10978,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/mass-suggestion",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11013,7 +11013,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/maze",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11059,7 +11059,7 @@
         }
       ],
       "url": "/api/2014/spells/meld-into-stone",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11121,7 +11121,7 @@
         }
       ],
       "url": "/api/2014/spells/mending",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11173,7 +11173,7 @@
         }
       ],
       "url": "/api/2014/spells/message",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11234,7 +11234,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/meteor-swarm",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11272,7 +11272,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/mind-blank",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11330,7 +11330,7 @@
         }
       ],
       "url": "/api/2014/spells/minor-illusion",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11380,7 +11380,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/mirage-arcane",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11438,7 +11438,7 @@
         }
       ],
       "url": "/api/2014/spells/mirror-image",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11477,7 +11477,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/mislead",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11530,7 +11530,7 @@
         }
       ],
       "url": "/api/2014/spells/misty-step",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "modify-memory",
@@ -11582,7 +11582,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/modify-memory",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "moonbeam",
@@ -11657,7 +11657,7 @@
         }
       ],
       "url": "/api/2014/spells/moonbeam",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11710,7 +11710,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/move-earth",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11761,7 +11761,7 @@
         }
       ],
       "url": "/api/2014/spells/nondetection",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11812,7 +11812,7 @@
         }
       ],
       "url": "/api/2014/spells/pass-without-trace",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11854,7 +11854,7 @@
         }
       ],
       "url": "/api/2014/spells/passwall",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "phantasmal-killer",
@@ -11907,7 +11907,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/phantasmal-killer",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11947,7 +11947,7 @@
         }
       ],
       "url": "/api/2014/spells/phantom-steed",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -11985,7 +11985,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/planar-ally",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "planar-binding",
@@ -12046,7 +12046,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/planar-binding",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12113,7 +12113,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/plane-shift",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12170,7 +12170,7 @@
         }
       ],
       "url": "/api/2014/spells/plant-growth",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12240,7 +12240,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/poison-spray",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12302,7 +12302,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/polymorph",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12349,7 +12349,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/power-word-kill",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12397,7 +12397,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/power-word-stun",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "prayer-of-healing",
@@ -12447,7 +12447,7 @@
         }
       ],
       "url": "/api/2014/spells/prayer-of-healing",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12508,7 +12508,7 @@
         }
       ],
       "url": "/api/2014/spells/prestidigitation",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12572,7 +12572,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/prismatic-spray",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12620,7 +12620,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/prismatic-wall",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "private-sanctum",
@@ -12669,7 +12669,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/private-sanctum",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12724,7 +12724,7 @@
         }
       ],
       "url": "/api/2014/spells/produce-flame",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12771,7 +12771,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/programmed-illusion",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12814,7 +12814,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/project-image",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12878,7 +12878,7 @@
         }
       ],
       "url": "/api/2014/spells/protection-from-energy",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12940,7 +12940,7 @@
         }
       ],
       "url": "/api/2014/spells/protection-from-evil-and-good",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -12995,7 +12995,7 @@
         }
       ],
       "url": "/api/2014/spells/protection-from-poison",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13044,7 +13044,7 @@
         }
       ],
       "url": "/api/2014/spells/purify-food-and-drink",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13098,7 +13098,7 @@
         }
       ],
       "url": "/api/2014/spells/raise-dead",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13152,7 +13152,7 @@
         }
       ],
       "url": "/api/2014/spells/ray-of-enfeeblement",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13211,7 +13211,7 @@
         }
       ],
       "url": "/api/2014/spells/ray-of-frost",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13260,7 +13260,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/regenerate",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13313,7 +13313,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/reincarnate",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13367,7 +13367,7 @@
         }
       ],
       "url": "/api/2014/spells/remove-curse",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13413,7 +13413,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/resilient-sphere",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13459,7 +13459,7 @@
         }
       ],
       "url": "/api/2014/spells/resistance",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13503,7 +13503,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/resurrection",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13563,7 +13563,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/reverse-gravity",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13614,7 +13614,7 @@
         }
       ],
       "url": "/api/2014/spells/revivify",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13658,7 +13658,7 @@
         }
       ],
       "url": "/api/2014/spells/rope-trick",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13719,7 +13719,7 @@
         }
       ],
       "url": "/api/2014/spells/sacred-flame",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13766,7 +13766,7 @@
         }
       ],
       "url": "/api/2014/spells/sanctuary",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "index": "scorching-ray",
@@ -13828,7 +13828,7 @@
         }
       ],
       "url": "/api/2014/spells/scorching-ray",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13911,7 +13911,7 @@
         }
       ],
       "url": "/api/2014/spells/scrying",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13948,7 +13948,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/secret-chest",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -13999,7 +13999,7 @@
         }
       ],
       "url": "/api/2014/spells/see-invisibility",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -14045,7 +14045,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/seeming",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.217Z"
     },
     {
       "higher_level": [],
@@ -14097,7 +14097,7 @@
         }
       ],
       "url": "/api/2014/spells/sending",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14134,7 +14134,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/sequester",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14179,7 +14179,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/shapechange",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "index": "shatter",
@@ -14267,7 +14267,7 @@
         }
       ],
       "url": "/api/2014/spells/shatter",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14311,7 +14311,7 @@
         }
       ],
       "url": "/api/2014/spells/shield",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14357,7 +14357,7 @@
         }
       ],
       "url": "/api/2014/spells/shield-of-faith",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14398,7 +14398,7 @@
         }
       ],
       "url": "/api/2014/spells/shillelagh",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14457,7 +14457,7 @@
         }
       ],
       "url": "/api/2014/spells/shocking-grasp",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14516,7 +14516,7 @@
         }
       ],
       "url": "/api/2014/spells/silence",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14573,7 +14573,7 @@
         }
       ],
       "url": "/api/2014/spells/silent-image",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14611,7 +14611,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/simulacrum",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "index": "sleep",
@@ -14675,7 +14675,7 @@
         }
       ],
       "url": "/api/2014/spells/sleep",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14737,7 +14737,7 @@
         }
       ],
       "url": "/api/2014/spells/sleet-storm",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14804,7 +14804,7 @@
         }
       ],
       "url": "/api/2014/spells/slow",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14837,7 +14837,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/spare-the-dying",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14886,7 +14886,7 @@
         }
       ],
       "url": "/api/2014/spells/speak-with-animals",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14933,7 +14933,7 @@
         }
       ],
       "url": "/api/2014/spells/speak-with-dead",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -14990,7 +14990,7 @@
         }
       ],
       "url": "/api/2014/spells/speak-with-plants",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15046,7 +15046,7 @@
         }
       ],
       "url": "/api/2014/spells/spider-climb",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15102,7 +15102,7 @@
         }
       ],
       "url": "/api/2014/spells/spike-growth",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "index": "spirit-guardians",
@@ -15146,7 +15146,7 @@
         }
       ],
       "url": "/api/2014/spells/spirit-guardians",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "index": "spiritual-weapon",
@@ -15212,7 +15212,7 @@
         }
       ],
       "url": "/api/2014/spells/spiritual-weapon",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15288,7 +15288,7 @@
         }
       ],
       "url": "/api/2014/spells/stinking-cloud",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15339,7 +15339,7 @@
         }
       ],
       "url": "/api/2014/spells/stone-shape",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15395,7 +15395,7 @@
         }
       ],
       "url": "/api/2014/spells/stoneskin",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15456,7 +15456,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/storm-of-vengeance",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15522,7 +15522,7 @@
         }
       ],
       "url": "/api/2014/spells/suggestion",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15592,7 +15592,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/sunbeam",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15662,7 +15662,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/sunburst",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15723,7 +15723,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/symbol",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15770,7 +15770,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/telekinesis",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15806,7 +15806,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/telepathic-bond",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15873,7 +15873,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/teleport",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15923,7 +15923,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/teleportation-circle",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -15968,7 +15968,7 @@
         }
       ],
       "url": "/api/2014/spells/thaumaturgy",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "index": "thunderwave",
@@ -16055,7 +16055,7 @@
         }
       ],
       "url": "/api/2014/spells/thunderwave",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16093,7 +16093,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/time-stop",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16145,7 +16145,7 @@
         }
       ],
       "url": "/api/2014/spells/tiny-hut",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16205,7 +16205,7 @@
         }
       ],
       "url": "/api/2014/spells/tongues",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16238,7 +16238,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/transport-via-plants",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16283,7 +16283,7 @@
         }
       ],
       "url": "/api/2014/spells/tree-stride",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16336,7 +16336,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/true-polymorph",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16378,7 +16378,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/true-resurrection",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16433,7 +16433,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/true-seeing",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16486,7 +16486,7 @@
         }
       ],
       "url": "/api/2014/spells/true-strike",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16539,7 +16539,7 @@
         }
       ],
       "url": "/api/2014/spells/unseen-servant",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "index": "vampiric-touch",
@@ -16602,7 +16602,7 @@
         }
       ],
       "url": "/api/2014/spells/vampiric-touch",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16656,7 +16656,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/vicious-mockery",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "index": "wall-of-fire",
@@ -16734,7 +16734,7 @@
         }
       ],
       "url": "/api/2014/spells/wall-of-fire",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16770,7 +16770,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/wall-of-force",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "index": "wall-of-ice",
@@ -16834,7 +16834,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/wall-of-ice",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16890,7 +16890,7 @@
         }
       ],
       "url": "/api/2014/spells/wall-of-stone",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "index": "wall-of-thorns",
@@ -16954,7 +16954,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/wall-of-thorns",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -16997,7 +16997,7 @@
         }
       ],
       "url": "/api/2014/spells/warding-bond",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -17058,7 +17058,7 @@
         }
       ],
       "url": "/api/2014/spells/water-breathing",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -17120,7 +17120,7 @@
         }
       ],
       "url": "/api/2014/spells/water-walk",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -17179,7 +17179,7 @@
         }
       ],
       "url": "/api/2014/spells/web",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -17224,7 +17224,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/weird",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -17260,7 +17260,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/wind-walk",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -17330,7 +17330,7 @@
         }
       ],
       "url": "/api/2014/spells/wind-wall",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -17376,7 +17376,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/wish",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -17413,7 +17413,7 @@
       ],
       "subclasses": [],
       "url": "/api/2014/spells/word-of-recall",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     },
     {
       "higher_level": [],
@@ -17472,7 +17472,7 @@
         }
       ],
       "url": "/api/2014/spells/zone-of-truth",
-      "updated_at": "2025-10-24T20:42:14.619Z"
+      "updated_at": "2026-04-01T20:35:39.218Z"
     }
   ]
 }

@@ -49,7 +49,7 @@
         }
       ],
       "url": "/api/2014/rules/adventuring",
-      "updated_at": "2025-10-24T20:42:14.409Z"
+      "updated_at": "2026-04-01T20:35:38.947Z"
     },
     {
       "name": "Appendix",
@@ -68,7 +68,7 @@
         }
       ],
       "url": "/api/2014/rules/appendix",
-      "updated_at": "2025-10-24T20:42:14.409Z"
+      "updated_at": "2026-04-01T20:35:38.947Z"
     },
     {
       "name": "Combat",
@@ -117,7 +117,7 @@
         }
       ],
       "url": "/api/2014/rules/combat",
-      "updated_at": "2025-10-24T20:42:14.409Z"
+      "updated_at": "2026-04-01T20:35:38.947Z"
     },
     {
       "name": "Equipment",
@@ -161,7 +161,7 @@
         }
       ],
       "url": "/api/2014/rules/equipment",
-      "updated_at": "2025-10-24T20:42:14.409Z"
+      "updated_at": "2026-04-01T20:35:38.947Z"
     },
     {
       "name": "Spellcasting",
@@ -180,7 +180,7 @@
         }
       ],
       "url": "/api/2014/rules/spellcasting",
-      "updated_at": "2025-10-24T20:42:14.409Z"
+      "updated_at": "2026-04-01T20:35:38.947Z"
     },
     {
       "name": "Using Ability Scores",
@@ -219,7 +219,7 @@
         }
       ],
       "url": "/api/2014/rules/using-ability-scores",
-      "updated_at": "2025-10-24T20:42:14.409Z"
+      "updated_at": "2026-04-01T20:35:38.947Z"
     }
   ]
 }

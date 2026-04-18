@@ -11,7 +11,7 @@
       ],
       "script": "Infernal",
       "url": "/api/2014/languages/abyssal",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "celestial",
@@ -22,7 +22,7 @@
       ],
       "script": "Celestial",
       "url": "/api/2014/languages/celestial",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "common",
@@ -33,7 +33,7 @@
       ],
       "script": "Common",
       "url": "/api/2014/languages/common",
-      "updated_at": "2025-10-24T20:42:13.302Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "deep-speech",
@@ -44,7 +44,7 @@
         "Cloakers"
       ],
       "url": "/api/2014/languages/deep-speech",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "draconic",
@@ -57,7 +57,7 @@
       ],
       "script": "Draconic",
       "url": "/api/2014/languages/draconic",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "dwarvish",
@@ -69,7 +69,7 @@
       ],
       "script": "Dwarvish",
       "url": "/api/2014/languages/dwarvish",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "elvish",
@@ -81,7 +81,7 @@
       ],
       "script": "Elvish",
       "url": "/api/2014/languages/elvish",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "giant",
@@ -93,7 +93,7 @@
       ],
       "script": "Dwarvish",
       "url": "/api/2014/languages/giant",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "gnomish",
@@ -105,7 +105,7 @@
       ],
       "script": "Dwarvish",
       "url": "/api/2014/languages/gnomish",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "goblin",
@@ -116,7 +116,7 @@
       ],
       "script": "Dwarvish",
       "url": "/api/2014/languages/goblin",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "halfling",
@@ -128,7 +128,7 @@
       ],
       "script": "Common",
       "url": "/api/2014/languages/halfling",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "infernal",
@@ -139,7 +139,7 @@
       ],
       "script": "Infernal",
       "url": "/api/2014/languages/infernal",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "orc",
@@ -151,7 +151,7 @@
       ],
       "script": "Dwarvish",
       "url": "/api/2014/languages/orc",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "primordial",
@@ -162,7 +162,7 @@
       ],
       "script": "Dwarvish",
       "url": "/api/2014/languages/primordial",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "sylvan",
@@ -173,7 +173,7 @@
       ],
       "script": "Elvish",
       "url": "/api/2014/languages/sylvan",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     },
     {
       "index": "undercommon",
@@ -184,7 +184,7 @@
       ],
       "script": "Elvish",
       "url": "/api/2014/languages/undercommon",
-      "updated_at": "2025-10-24T20:42:13.303Z"
+      "updated_at": "2026-04-01T20:35:37.652Z"
     }
   ]
 }

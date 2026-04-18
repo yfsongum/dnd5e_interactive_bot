@@ -1,6 +1,6 @@
 {
   "base_url": "https://www.dnd5eapi.co",
-  "fetched_at_unix": 1771872329,
+  "fetched_at_unix": 1776524688,
   "endpoints": {
     "ability-scores": {
       "path": "/api/2014/ability-scores",

@@ -60,7 +60,7 @@
       ],
       "subraces": [],
       "url": "/api/2014/races/dragonborn",
-      "updated_at": "2025-10-24T20:42:14.212Z"
+      "updated_at": "2026-04-01T20:35:38.675Z"
     },
     {
       "index": "dwarf",
@@ -128,7 +128,7 @@
         }
       ],
       "url": "/api/2014/races/dwarf",
-      "updated_at": "2025-10-24T20:42:14.212Z"
+      "updated_at": "2026-04-01T20:35:38.675Z"
     },
     {
       "index": "elf",
@@ -191,7 +191,7 @@
         }
       ],
       "url": "/api/2014/races/elf",
-      "updated_at": "2025-10-24T20:42:14.212Z"
+      "updated_at": "2026-04-01T20:35:38.675Z"
     },
     {
       "index": "gnome",
@@ -244,7 +244,7 @@
         }
       ],
       "url": "/api/2014/races/gnome",
-      "updated_at": "2025-10-24T20:42:14.212Z"
+      "updated_at": "2026-04-01T20:35:38.675Z"
     },
     {
       "index": "half-elf",
@@ -471,7 +471,7 @@
       ],
       "subraces": [],
       "url": "/api/2014/races/half-elf",
-      "updated_at": "2025-10-24T20:42:14.212Z"
+      "updated_at": "2026-04-01T20:35:38.675Z"
     },
     {
       "index": "half-orc",
@@ -536,7 +536,7 @@
       ],
       "subraces": [],
       "url": "/api/2014/races/half-orc",
-      "updated_at": "2025-10-24T20:42:14.212Z"
+      "updated_at": "2026-04-01T20:35:38.675Z"
     },
     {
       "index": "halfling",
@@ -594,7 +594,7 @@
         }
       ],
       "url": "/api/2014/races/halfling",
-      "updated_at": "2025-10-24T20:42:14.212Z"
+      "updated_at": "2026-04-01T20:35:38.675Z"
     },
     {
       "index": "human",
@@ -794,7 +794,7 @@
       "traits": [],
       "subraces": [],
       "url": "/api/2014/races/human",
-      "updated_at": "2025-10-24T20:42:14.212Z"
+      "updated_at": "2026-04-01T20:35:38.675Z"
     },
     {
       "index": "tiefling",
@@ -854,7 +854,7 @@
       ],
       "subraces": [],
       "url": "/api/2014/races/tiefling",
-      "updated_at": "2025-10-24T20:42:14.212Z"
+      "updated_at": "2026-04-01T20:35:38.675Z"
     }
   ]
 }

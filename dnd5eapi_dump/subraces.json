@@ -39,7 +39,7 @@
         }
       ],
       "url": "/api/2014/subraces/high-elf",
-      "updated_at": "2025-10-24T20:42:14.841Z"
+      "updated_at": "2026-04-01T20:35:39.541Z"
     },
     {
       "index": "hill-dwarf",
@@ -68,7 +68,7 @@
         }
       ],
       "url": "/api/2014/subraces/hill-dwarf",
-      "updated_at": "2025-10-24T20:42:14.841Z"
+      "updated_at": "2026-04-01T20:35:39.541Z"
     },
     {
       "index": "lightfoot-halfling",
@@ -97,7 +97,7 @@
         }
       ],
       "url": "/api/2014/subraces/lightfoot-halfling",
-      "updated_at": "2025-10-24T20:42:14.841Z"
+      "updated_at": "2026-04-01T20:35:39.541Z"
     },
     {
       "index": "rock-gnome",
@@ -131,7 +131,7 @@
         }
       ],
       "url": "/api/2014/subraces/rock-gnome",
-      "updated_at": "2025-10-24T20:42:14.841Z"
+      "updated_at": "2026-04-01T20:35:39.541Z"
     }
   ]
 }

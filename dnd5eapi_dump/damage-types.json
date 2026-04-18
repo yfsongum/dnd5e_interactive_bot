@@ -9,7 +9,7 @@
         "The corrosive spray of a black dragon's breath and the dissolving enzymes secreted by a black pudding deal acid damage."
       ],
       "url": "/api/2014/damage-types/acid",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "bludgeoning",
@@ -18,7 +18,7 @@
         "Blunt force attacks, falling, constriction, and the like deal bludgeoning damage."
       ],
       "url": "/api/2014/damage-types/bludgeoning",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "cold",
@@ -27,7 +27,7 @@
         "The infernal chill radiating from an ice devil's spear and the frigid blast of a white dragon's breath deal cold damage."
       ],
       "url": "/api/2014/damage-types/cold",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "fire",
@@ -36,7 +36,7 @@
         "Red dragons breathe fire, and many spells conjure flames to deal fire damage."
       ],
       "url": "/api/2014/damage-types/fire",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "force",
@@ -45,7 +45,7 @@
         "Force is pure magical energy focused into a damaging form. Most effects that deal force damage are spells, including magic missile and spiritual weapon."
       ],
       "url": "/api/2014/damage-types/force",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "lightning",
@@ -54,7 +54,7 @@
         "A lightning bolt spell and a blue dragon's breath deal lightning damage."
       ],
       "url": "/api/2014/damage-types/lightning",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "necrotic",
@@ -63,7 +63,7 @@
         "Necrotic damage, dealt by certain undead and a spell such as chill touch, withers matter and even the soul."
       ],
       "url": "/api/2014/damage-types/necrotic",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "piercing",
@@ -72,7 +72,7 @@
         "Puncturing and impaling attacks, including spears and monsters' bites, deal piercing damage."
       ],
       "url": "/api/2014/damage-types/piercing",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "poison",
@@ -81,7 +81,7 @@
         "Venomous stings and the toxic gas of a green dragon's breath deal poison damage."
       ],
       "url": "/api/2014/damage-types/poison",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "psychic",
@@ -90,7 +90,7 @@
         "Mental abilities such as a psionic blast deal psychic damage."
       ],
       "url": "/api/2014/damage-types/psychic",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "radiant",
@@ -99,7 +99,7 @@
         "Radiant damage, dealt by a cleric's flame strike spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power."
       ],
       "url": "/api/2014/damage-types/radiant",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "slashing",
@@ -108,7 +108,7 @@
         "Swords, axes, and monsters' claws deal slashing damage."
       ],
       "url": "/api/2014/damage-types/slashing",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     },
     {
       "index": "thunder",
@@ -117,7 +117,7 @@
         "A concussive burst of sound, such as the effect of the thunderwave spell, deals thunder damage."
       ],
       "url": "/api/2014/damage-types/thunder",
-      "updated_at": "2025-10-24T20:42:12.729Z"
+      "updated_at": "2026-04-01T20:35:36.847Z"
     }
   ]
 }
