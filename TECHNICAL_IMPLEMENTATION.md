@@ -11,7 +11,8 @@ The system was developed as a minimal end-to-end prototype and later deployed on
 - local vector storage with Qdrant
 - FastAPI-based serving layer
 - a lightweight static frontend for interaction
-- early support for source traceback / evidence display
+- role-based prompt selection (Player vs. Dungeon Master)
+- source traceback and evidence display
 
 ## 2. System Architecture
 
@@ -24,7 +25,7 @@ Responsible for downloading and organizing the raw corpus.
 Responsible for preprocessing, chunking, embedding, and storing vectorized content.
 
 ### C. Serving Layer
-Responsible for API exposure, retrieval at query time, LLM prompting, and returning structured responses to the frontend.
+Responsible for API exposure, retrieval at query time, role-aware LLM prompting, and returning structured responses to the frontend.
 
 At a conceptual level:
 
@@ -55,7 +56,7 @@ The `get_data.py` script downloads all available data from the public D&D 5e API
 - fetch the top-level API index from `/api`
 - enumerate all top-level endpoints
 - walk paginated results using the `next` field
-- follow each item’s `url` to retrieve the full object when available
+- follow each item's `url` to retrieve the full object when available
 - save one JSON file per endpoint
 - save a master metadata file for reproducibility and debugging
 
@@ -133,7 +134,8 @@ At startup, the application:
 3. opens the local Qdrant store
 4. loads a Qdrant vector store wrapper
 5. initializes the LLM
-6. exposes the API routes
+6. defines role-specific prompt templates
+7. exposes the API routes
 
 ### Models used
 
@@ -150,7 +152,54 @@ damage_types
 
 This means the live retrieval scope is narrower than a full SRD-wide assistant, but it is sufficient for demonstrating the end-to-end architecture.
 
-## 6. Retrieval-Augmented Generation Flow
+## 6. Role-Based Prompt Design
+
+### Overview
+
+The backend maintains two separate prompt templates, one for each supported role:
+
+- `"player"` — intended for D&D players asking about what their character can do
+- `"dm"` — intended for Dungeon Masters adjudicating rules at the table
+
+The role is passed in as part of the API request and controls which prompt template is used. The retrieval step is identical for both roles. Only the prompt framing changes.
+
+### Player prompt framing
+
+The player prompt instructs the LLM to:
+
+- focus on practical gameplay advice
+- describe what the character can do
+- use simple, action-oriented language
+
+### DM prompt framing
+
+The DM prompt instructs the LLM to:
+
+- focus on rule details and edge cases
+- explain how to make fair rulings
+- be precise about the specific mechanics involved
+
+### Implementation
+
+```python
+PROMPTS = {
+    "player": PromptTemplate(...),
+    "dm": PromptTemplate(...),
+}
+
+def rag_pipeline(query, k=3, role="player"):
+    docs = retrieve_chunks(query, k)
+    context = build_context(docs)
+    prompt_template = PROMPTS.get(role, PROMPTS["player"])
+    prompt = prompt_template.format(context=context, question=query)
+    ...
+```
+
+### Why this design
+
+Separating prompts by role is a lightweight way to make the same retrieved content more useful to different types of users without changing the retrieval architecture. It also demonstrates a practical pattern for role-aware or persona-aware LLM applications.
+
+## 7. Retrieval-Augmented Generation Flow
 
 The core query flow works like this:
 
@@ -160,7 +209,8 @@ The frontend sends a POST request to `/api/qa` with:
 ```json
 {
   "question": "user question",
-  "k": 3
+  "k": 3,
+  "role": "player"
 }
 ```
 
@@ -170,8 +220,11 @@ The backend calls vector similarity search over the local Qdrant collection.
 ### Step 3: Build retrieved context
 The retrieved chunks are formatted into a prompt-ready context string.
 
-### Step 4: Prompt the LLM
-The backend uses a strict prompt template that tells the model to:
+### Step 4: Select prompt by role
+The backend selects the appropriate prompt template based on the `role` field.
+
+### Step 5: Prompt the LLM
+The backend uses the selected prompt template that tells the model to:
 
 - answer only from retrieved context
 - say it does not know if the answer is absent from context
@@ -179,16 +232,49 @@ The backend uses a strict prompt template that tells the model to:
   - `short`
   - `steps`
 
-### Step 5: Parse and return
+### Step 6: Parse and return
 The response is parsed into:
 
 - `short`
 - `steps`
 - `sources`
 
-Each source includes the original chunk text and metadata.
+Each source includes the original chunk text and metadata, with a corrected URL pointing to the original D&D 5e API entry.
 
-## 7. API Design
+## 8. Source URL Construction
+
+### Problem
+
+The raw `url` field stored in Qdrant metadata was constructed incorrectly during indexing. The endpoint name and item index were concatenated without a `/` separator, producing malformed URLs such as:
+
+```
+https://www.dnd5eapi.co/api/2014/conditionsgrappled
+```
+
+### Solution
+
+The backend reconstructs the URL at serve time using the `chunk_id` field, which follows a reliable `category_index` format:
+
+```python
+def build_url(doc) -> str:
+    chunk_id = doc.metadata.get("chunk_id", "")
+    parts = chunk_id.split("_", 1)
+    if len(parts) == 2:
+        return f"https://www.dnd5eapi.co/api/{parts[0]}/{parts[1]}"
+    return doc.metadata.get("url", "")
+```
+
+This produces correctly formed URLs such as:
+
+```
+https://www.dnd5eapi.co/api/conditions/grappled
+```
+
+### Engineering note
+
+This is an example of a data quality issue that only surfaces at serving time. Fixing it in the serving layer rather than re-indexing was the pragmatic choice for a demo, but a production system should fix it at the indexing stage.
+
+## 9. API Design
 
 ### `GET /`
 Returns the frontend HTML file.
@@ -214,9 +300,12 @@ Main question-answering endpoint.
 ```json
 {
   "question": "What is fire damage?",
-  "k": 3
+  "k": 3,
+  "role": "player"
 }
 ```
+
+`role` defaults to `"player"` if not provided.
 
 ### Response schema
 
@@ -238,9 +327,9 @@ Main question-answering endpoint.
 
 ### Design note
 
-The inclusion of `sources` was intentional and supports the second project goal: traceback to original retrieved content.
+The inclusion of `sources` was intentional and supports the second project goal: traceback to original retrieved content. The `role` field supports the third goal: role-aware answer framing.
 
-## 8. Frontend Integration
+## 10. Frontend Integration
 
 ### File: `2.0website.html`
 
@@ -249,19 +338,38 @@ The frontend is a static HTML interface served by the backend.
 ### Responsibilities
 
 - collect a user question
-- submit it to the backend
+- allow the user to select their role (Player or Dungeon Master)
+- submit the question and role to the backend
 - display:
   - short answer
   - step-by-step explanation
-  - optionally retrieved evidence
+  - optionally retrieved evidence with source links
+
+### Role selector
+
+The frontend includes two toggle buttons for role selection. The selected role is tracked in a JavaScript variable and included in every API request:
+
+```javascript
+let currentRole = "player";
+
+document.querySelectorAll(".role-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        document.querySelectorAll(".role-btn").forEach(b => b.classList.remove("active-role"));
+        btn.classList.add("active-role");
+        currentRole = btn.dataset.role;
+    });
+});
+```
+
+### Evidence panel
+
+When evidence is available, the frontend displays a collapsible panel showing the retrieved passages and a direct link to the original source entry on the D&D 5e API.
 
 ### UX direction
 
 The current UI is intentionally lightweight. It prioritizes showing the RAG pipeline working end to end rather than providing a polished production experience.
 
-The presence of evidence/source handling makes it easy to extend into a richer citation or traceback interface in future iterations.
-
-## 9. AWS Deployment
+## 11. AWS Deployment
 
 The project was later deployed to AWS EC2.
 
@@ -284,12 +392,13 @@ This deployment strategy kept the system simple:
 It also made the project more relevant to AWS-oriented roles by demonstrating practical experience with:
 
 - EC2
+- IAM user management
+- security group configuration
 - remote environment setup
-- file transfer
-- service startup
-- testing through API endpoints
+- file transfer via SCP
+- service startup and testing
 
-## 10. Real Engineering Challenges Encountered
+## 12. Real Engineering Challenges Encountered
 
 This project involved several practical issues beyond the ideal architecture.
 
@@ -310,10 +419,18 @@ This happened during:
 ### D. SQLite compatibility on EC2
 Qdrant local persistence also interacted with the host SQLite version in ways that required special handling during deployment.
 
+### E. LLM JSON formatting
+The LLM occasionally wrapped its JSON response in markdown code fences or added extra text, causing parse failures. This was handled by extracting the JSON block with a regex before parsing:
+
+```python
+match = re.search(r'\{.*\}', raw, re.DOTALL)
+parsed = json.loads(match.group()) if match else {}
+```
+
 ### Engineering takeaway
 These issues reinforced an important lesson: local mode is excellent for demos and prototypes, but a production-ready system should use a standalone vector database service instead of sharing one local persistence directory across processes.
 
-## 11. Security Considerations
+## 13. Security Considerations
 
 ### Secrets management
 The application loads the OpenAI API key from `si699.env`.
@@ -336,7 +453,7 @@ si699.env
 __pycache__/
 ```
 
-## 12. Known Limitations
+## 14. Known Limitations
 
 ### Limited indexed scope
 The live app currently points to a collection named `damage_types`, which is narrower than a complete SRD-wide assistant.
@@ -350,7 +467,7 @@ Using local Qdrant mode introduces operational constraints and file-locking risk
 ### Simple frontend
 The current frontend is designed as an MVP and does not yet include a richer citation or interaction experience.
 
-## 13. Future Improvements
+## 15. Future Improvements
 
 ### Data / indexing
 - move notebook logic into a standalone indexing script
@@ -361,6 +478,10 @@ The current frontend is designed as an MVP and does not yet include a richer cit
 - tune chunking and retrieval parameters
 - improve structured answer formatting
 - add better prompt robustness and failure handling
+
+### Role system
+- add more role types beyond Player and DM (e.g. new player, rules lawyer)
+- allow per-role retrieval weighting or re-ranking
 
 ### Frontend
 - improve evidence rendering
@@ -373,7 +494,7 @@ The current frontend is designed as an MVP and does not yet include a richer cit
 - add deployment automation
 - use managed secret storage instead of local env files
 
-## 14. Summary
+## 16. Summary
 
 The D&D 5e Rules Assistant is a compact but realistic applied AI system.
 
@@ -381,7 +502,7 @@ It demonstrates how to go from:
 - raw external data
 - to local preprocessing
 - to vector retrieval
-- to structured LLM answers
+- to role-aware structured LLM answers
 - to an interactive deployed application
 
-Although the current implementation is intentionally lightweight, it captures many of the practical concerns that appear in real-world AI application development, including environment management, retrieval architecture, source grounding, deployment tradeoffs, and repository security.
+Although the current implementation is intentionally lightweight, it captures many of the practical concerns that appear in real-world AI application development, including environment management, retrieval architecture, role-aware prompt design, source grounding, deployment tradeoffs, and repository security.

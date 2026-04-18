@@ -6,7 +6,7 @@ This project combines a static frontend, a FastAPI backend, a local Qdrant vecto
 
 ## Project Goals
 
-This project was built with two main goals:
+This project was built with three main goals:
 
 1. **Build and deploy a minimal working D&D rules bot**
    - collect domain data
@@ -18,12 +18,19 @@ This project was built with two main goals:
    - enable source/evidence display in the frontend
    - make answers more inspectable and grounded
 
+3. **Support role-based answer framing**
+   - allow users to select their role (Player or Dungeon Master)
+   - adjust the LLM prompt based on role context
+   - give players action-oriented answers and DMs ruling-oriented answers
+
 ## Demo Features
 
 - Ask natural-language D&D 5e rules questions
+- Select your role: **Player** or **Dungeon Master**
 - Retrieve relevant passages from a local vector store
-- Generate a short answer plus a step-by-step breakdown
+- Generate a short answer plus a step-by-step breakdown tailored to the selected role
 - Return supporting source snippets for evidence display
+- Link directly to original source entries on the D&D 5e API
 - Serve frontend and backend from a single FastAPI application
 - Validate deployment through a simple health check endpoint
 
@@ -64,6 +71,7 @@ At a high level, the system works as follows:
    - embeds the query
    - retrieves top-k similar chunks from Qdrant
    - builds a context string from the retrieved chunks
+   - selects a prompt template based on the user's role
    - prompts the LLM to answer in a strict JSON format
    - returns the answer plus supporting sources
 
@@ -85,14 +93,17 @@ Example response:
 
 ### `POST /api/qa`
 
-Accepts a question and optional retrieval count `k`.
+Accepts a question, optional retrieval count `k`, and optional `role`.
+
+`role` can be `"player"` (default) or `"dm"`.
 
 Example request:
 
 ```json
 {
   "question": "What is fire damage?",
-  "k": 3
+  "k": 3,
+  "role": "player"
 }
 ```
 
@@ -117,6 +128,14 @@ Example response:
   ]
 }
 ```
+
+### Role-based prompting
+
+When `role` is `"player"`, the LLM is instructed to focus on practical gameplay advice and what the character can do.
+
+When `role` is `"dm"`, the LLM is instructed to focus on rule details, edge cases, and how to make fair rulings at the table.
+
+The retrieved context is the same in both cases. Only the prompt framing changes.
 
 ## Data Pipeline
 
@@ -235,6 +254,7 @@ AWS EC2 was chosen because it keeps the deployment simple while also making the 
 - add inline evidence rendering instead of a basic evidence panel
 - replace local Qdrant mode with a standalone Qdrant service
 - add automated deployment and better secret management
+- add more role types beyond Player and DM
 
 ## Security Notes
 
@@ -265,6 +285,7 @@ This project is intentionally small, but it demonstrates an end-to-end applied A
 - embeddings
 - vector retrieval
 - structured LLM prompting
+- role-aware prompt design
 - backend API design
 - frontend integration
 - cloud deployment
