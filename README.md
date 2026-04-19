@@ -2,7 +2,7 @@
 
 A lightweight retrieval-augmented generation (RAG) demo for Dungeons & Dragons 5e rules question answering.
 
-This project combines a static frontend, a FastAPI backend, a local Qdrant vector store, and OpenAI models to answer rules questions over a D&D rules corpus. It was built as an end-to-end MVP to demonstrate corpus collection, vector search, LLM-based response generation, and lightweight deployment on AWS EC2.
+This project combines a static frontend, a FastAPI backend, a local Qdrant vector store, and OpenAI models to answer rules questions over a D&D rules corpus. It was built as an end-to-end MVP to demonstrate corpus collection, vector search, LLM-based response generation, role-based answer framing, source/evidence display, and lightweight deployment on AWS EC2.
 
 ## Project Goals
 
@@ -19,7 +19,7 @@ This project was built with three main goals:
    - make answers more inspectable and grounded
 
 3. **Support role-based answer framing**
-   - allow users to select their role (Player or Dungeon Master)
+   - allow users to select their role (**Player** or **Dungeon Master**)
    - adjust the LLM prompt based on role context
    - give players action-oriented answers and DMs ruling-oriented answers
 
@@ -31,6 +31,7 @@ This project was built with three main goals:
 - Generate a short answer plus a step-by-step breakdown tailored to the selected role
 - Return supporting source snippets for evidence display
 - Link directly to original source entries on the D&D 5e API
+- Reset and refresh the evidence panel when a new question is submitted
 - Serve frontend and backend from a single FastAPI application
 - Validate deployment through a simple health check endpoint
 
@@ -43,7 +44,7 @@ This project was built with three main goals:
 - **Vector Store:** Qdrant local mode
 - **Retrieval Layer:** LangChain + QdrantVectorStore
 - **Corpus Source:** D&D 5e API dump
-- **Deployment:** AWS EC2
+- **Deployment:** AWS EC2 + `systemd`
 
 ## Project Structure
 
@@ -67,13 +68,15 @@ At a high level, the system works as follows:
 1. `get_data.py` downloads D&D 5e API data into local JSON files.
 2. `pipeline.ipynb` preprocesses the corpus, creates embeddings, and stores them in a local Qdrant collection.
 3. `app.py` loads the embedding model, local Qdrant store, and chat model at startup.
-4. When a user submits a question, the backend:
+4. The frontend sends the user question and selected role to `/api/qa`.
+5. The backend:
    - embeds the query
    - retrieves top-k similar chunks from Qdrant
    - builds a context string from the retrieved chunks
    - selects a prompt template based on the user's role
    - prompts the LLM to answer in a strict JSON format
    - returns the answer plus supporting sources
+6. The frontend updates the short answer, steps, and evidence panel using the new response.
 
 ## Current API
 
@@ -129,7 +132,7 @@ Example response:
 }
 ```
 
-### Role-based prompting
+## Role-Based Prompting
 
 When `role` is `"player"`, the LLM is instructed to focus on practical gameplay advice and what the character can do.
 
@@ -221,6 +224,10 @@ Then visit:
 http://127.0.0.1:8000
 ```
 
+### Local development note
+
+Because this project uses **Qdrant local mode**, development servers that spawn multiple processes can fight over the same `qdrant_local/` directory lock. In practice, that means `uvicorn --reload` may fail locally. For this project, a single-process local run is more reliable than auto-reload.
+
 ## Deployment
 
 This project was deployed as a small AWS EC2 demo.
@@ -235,6 +242,18 @@ Files uploaded to the server included:
 - `dnd5eapi_dump/`
 - `si699.env`
 
+### Runtime setup
+
+The deployed app runs as a `systemd` service on EC2 so it stays available after SSH disconnects, terminal closes, or local IDE shutdowns.
+
+Typical service management commands:
+
+```bash
+sudo systemctl status dndbot --no-pager
+sudo systemctl restart dndbot
+sudo journalctl -u dndbot -n 50 --no-pager
+```
+
 ### Why EC2
 
 AWS EC2 was chosen because it keeps the deployment simple while also making the project more relevant for cloud-focused roles. The app runs as a small Python service, and the local Qdrant persistence is bundled with the project files.
@@ -245,6 +264,7 @@ AWS EC2 was chosen because it keeps the deployment simple while also making the 
 - The indexing workflow still depends on a notebook rather than a production ingestion script.
 - Qdrant local mode is convenient for demos but can cause file-locking issues during development.
 - The frontend is intentionally lightweight and optimized for MVP/demo use.
+- Browser caching can make frontend updates appear stale until the page is hard refreshed.
 
 ## Future Improvements
 
@@ -288,6 +308,7 @@ This project is intentionally small, but it demonstrates an end-to-end applied A
 - role-aware prompt design
 - backend API design
 - frontend integration
+- evidence-aware UI behavior
 - cloud deployment
 
 It is a practical example of how to turn a prototype notebook into a working interactive application.

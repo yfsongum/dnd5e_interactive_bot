@@ -13,6 +13,7 @@ The system was developed as a minimal end-to-end prototype and later deployed on
 - a lightweight static frontend for interaction
 - role-based prompt selection (Player vs. Dungeon Master)
 - source traceback and evidence display
+- a persistent EC2 service setup using `systemd`
 
 ## 2. System Architecture
 
@@ -114,10 +115,10 @@ The current implementation uses:
 The current implementation uses Qdrant in local persistence mode:
 
 ```python
-QdrantClient(path="./qdrant_local")
+QdrantClient(path="./qdrant_local", force_disable_check_same_thread=True)
 ```
 
-This choice was convenient for MVP development because it avoided provisioning a separate vector database service.
+This choice was convenient for MVP development because it avoided provisioning a separate vector database service, while the extra flag was needed to work around SQLite thread-check behavior on the deployed EC2 environment.
 
 ## 5. Backend Implementation
 
@@ -247,7 +248,7 @@ Each source includes the original chunk text and metadata, with a corrected URL 
 
 The raw `url` field stored in Qdrant metadata was constructed incorrectly during indexing. The endpoint name and item index were concatenated without a `/` separator, producing malformed URLs such as:
 
-```
+```text
 https://www.dnd5eapi.co/api/2014/conditionsgrappled
 ```
 
@@ -266,7 +267,7 @@ def build_url(doc) -> str:
 
 This produces correctly formed URLs such as:
 
-```
+```text
 https://www.dnd5eapi.co/api/conditions/grappled
 ```
 
@@ -361,7 +362,9 @@ document.querySelectorAll(".role-btn").forEach(btn => {
 });
 ```
 
-### Evidence panel
+### Evidence panel behavior
+
+When a new question is submitted, the frontend now clears any existing `evidencePanel` before rendering the next answer. This prevents stale evidence cards from remaining on screen after the short answer and step list have already changed.
 
 When evidence is available, the frontend displays a collapsible panel showing the retrieved passages and a direct link to the original source entry on the D&D 5e API.
 
@@ -381,6 +384,18 @@ The project was later deployed to AWS EC2.
 - local corpus files
 - environment file
 
+### Service model
+
+The deployed app runs as a `systemd` service (`dndbot`) so it continues serving after terminal disconnects, SSH logout, or local IDE shutdown.
+
+Typical commands:
+
+```bash
+sudo systemctl status dndbot --no-pager
+sudo systemctl restart dndbot
+sudo journalctl -u dndbot -n 50 --no-pager
+```
+
 ### Why this deployment model was chosen
 
 This deployment strategy kept the system simple:
@@ -392,11 +407,11 @@ This deployment strategy kept the system simple:
 It also made the project more relevant to AWS-oriented roles by demonstrating practical experience with:
 
 - EC2
-- IAM user management
 - security group configuration
 - remote environment setup
 - file transfer via SCP
-- service startup and testing
+- service startup and log inspection
+- persistent service management with `systemd`
 
 ## 12. Real Engineering Challenges Encountered
 
@@ -417,7 +432,7 @@ This happened during:
 - development reload workflows
 
 ### D. SQLite compatibility on EC2
-Qdrant local persistence also interacted with the host SQLite version in ways that required special handling during deployment.
+Qdrant local persistence also interacted with the host SQLite version in ways that required special handling during deployment. In this project, the deployed app used `force_disable_check_same_thread=True` to avoid the SQLite pragma/thread-check failure encountered on EC2.
 
 ### E. LLM JSON formatting
 The LLM occasionally wrapped its JSON response in markdown code fences or added extra text, causing parse failures. This was handled by extracting the JSON block with a regex before parsing:
@@ -427,7 +442,11 @@ match = re.search(r'\{.*\}', raw, re.DOTALL)
 parsed = json.loads(match.group()) if match else {}
 ```
 
+### F. Browser caching during frontend updates
+After frontend edits, stale browser cache sometimes made it look like the evidence panel fix was not working. A hard refresh was needed to confirm the new HTML was actually being served.
+
 ### Engineering takeaway
+
 These issues reinforced an important lesson: local mode is excellent for demos and prototypes, but a production-ready system should use a standalone vector database service instead of sharing one local persistence directory across processes.
 
 ## 13. Security Considerations
@@ -505,4 +524,4 @@ It demonstrates how to go from:
 - to role-aware structured LLM answers
 - to an interactive deployed application
 
-Although the current implementation is intentionally lightweight, it captures many of the practical concerns that appear in real-world AI application development, including environment management, retrieval architecture, role-aware prompt design, source grounding, deployment tradeoffs, and repository security.
+Although the current implementation is intentionally lightweight, it captures many of the practical concerns that appear in real-world AI application development, including environment management, retrieval architecture, role-aware prompt design, source grounding, deployment tradeoffs, frontend state management, and repository security.
