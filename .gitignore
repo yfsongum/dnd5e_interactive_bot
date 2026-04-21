@@ -1,2 +1,23 @@
+# secrets
 si699.env
-si699.env
+.env
+.env.local
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# logs
+*.log
+app.log
